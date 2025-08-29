@@ -1,36 +1,38 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import Slider from "../components/sections/Home1/Slider";
-import Features from "../components/sections/Home1/Features";
-import Consult from "../components/sections/Home1/Consult";
-import HzAccordion from "../components/sections/Home1/HzAccordion";
-import Professional from "../components/sections/Home1/Professional";
-import ChooseUs from "../components/sections/Home1/ChooseUs";
-import Video from "../components/sections/Home1/Video";
-import About from "../components/sections/Home1/About";
-import Team from "../components/sections/Home1/Team";
-import Faqs from "../components/sections/Home1/Faqs";
-import Brand from "../components/sections/Home1/Brand";
-import Contact from "../components/sections/Home1/Contact";
-import News from "../components/sections/Home1/News";
+import Slider from "../components/sections/Home5/Slider";
+import About from "../components/sections/Home5/About";
+import Feature from "../components/sections/Home5/Feature";
+import Solutions from "../components/sections/Home5/Solutions";
+import Pricing from "../components/sections/Home5/Pricing";
+import Faqs from "../components/sections/Home5/Faqs";
+import Team from "../components/sections/Home5/Team";
+import Video from "../components/sections/Home5/Video";
+import Testimonial from "../components/sections/Home5/Testimonial";
+import About2 from "../components/sections/Home5/About2";
+import Video2 from "../components/sections/Home5/Video2";
+import Marquee from "../components/sections/Home5/Marquee";
+import News from "../components/sections/Home5/News";
+import Contact from "../components/sections/Home2/Contact";
 
-export default function Home1() {
+export default function Home() {
     return (
         <>
             <Layout>
                 <Slider />
-                <Features />
-                <Consult />
-                <HzAccordion />
-                <Professional />
-                <ChooseUs />
-                <Video />
-                <About />
-                <Team />
-                <Faqs />
-                <Brand />
-                <Contact />
-                <News />
+                {/* <About /> */}
+                {/* <Feature /> */}
+                {/* <Solutions /> */}
+                {/* <Pricing /> */}
+                {/* <Faqs /> */}
+                {/* <Team /> */}
+                {/* <Video /> */}
+                {/* <Testimonial /> */}
+                {/* <About2 /> */}
+                {/* <Video2 /> */}
+                {/* <Marquee /> */}
+                {/* <News /> */}
+                {/* <Contact /> */}
             </Layout>
         </>
     );

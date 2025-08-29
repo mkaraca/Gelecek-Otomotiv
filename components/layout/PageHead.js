@@ -5,8 +5,11 @@ const PageHead = ({ headTitle }) => {
     return (
         <>
             <Head>
-                <title>{headTitle ? headTitle : "Stratify - Business Consulting React Next JS Template"}</title>
-                <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />                
+                <title>{headTitle ? headTitle : "Mercedes-Benz Gelecek Otomotiv"}</title>
+                <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/favicon-192x192.png" sizes="192x192"/>
+                <link rel="apple-touch-icon" href="/favicon-180x180.png"/>
             </Head>
         </>
     );
