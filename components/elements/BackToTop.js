@@ -20,7 +20,7 @@ function BackToTop() {
     return (
         <>
             {hasScrolled && (
-                <a className={`btn-backToTop ${hasScrolled && "show"}`} href="#top"><i className="fa-regular fa-arrow-up"></i></a>
+                <a className={`btn-backToTop ${hasScrolled && "show"}`} href="#top"><i className="fa-solid fa-arrow-up"></i></a>
             )}
         </>
     );

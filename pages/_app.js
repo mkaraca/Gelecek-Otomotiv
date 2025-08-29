@@ -6,7 +6,7 @@ import '../public/assets/css/bootstrap.min.css';
 import '../public/assets/css/global.css';
 import '../public/assets/css/style.css';
 import '../public/assets/css/meanmenu.css';
-import '../public/assets/css/fontawesome-all.min.css';
+// import '../public/assets/css/fontawesome-all.min.css';
 import '../public/assets/css/animate.css';
 
 function MyApp({ Component, pageProps }) {

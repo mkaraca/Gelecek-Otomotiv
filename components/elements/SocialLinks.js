@@ -2,10 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 const socialLink = [
-    { href: "https://facebook.com", icon: "fa-facebook-f" },
-    { href: "https://twitter.com", icon: "fa-twitter" },
     { href: "https://instagram.com", icon: "fa-instagram" },
-    { href: "https://linkedin.com", icon: "fa-linkedin-in" },
+    { href: "https://facebook.com", icon: "fa-facebook" },
+    { href: "https://x.com", icon: "fa-x-twitter" },
+    { href: "https://youtube.com", icon: "fa-youtube" },
+    { href: "https://linkedin.com", icon: "fa-linkedin" },
 ];
 
 function SocialLinks() {

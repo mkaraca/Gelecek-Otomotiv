@@ -3,6 +3,7 @@ import Link from 'next/link';
 import NavLinks from './NavLinks';
 import NavLinksSecondary from './NavLinksSecondary';
 import MobileMenu from './MobileMenu';
+import SocialLinks from '../elements/SocialLinks';
 
 const Header = ({ scroll }) => {
     const [searchToggle, setSearchToggle] = useState(false);
@@ -17,80 +18,19 @@ const Header = ({ scroll }) => {
                 <div className="container">
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
-                            <li className='opacity-50'><i className="fa-light fa-envelope-open-text" /><Link href="/">info@gelecek.com</Link></li>
-                            <li className='opacity-50'><i className="fa-light fa-phone" /><Link href="/">(0212) 322 80 00</Link></li>
+                            <li><Link href="/"><i className="fa-solid fa-envelope-open-text pe-2" />info@gelecek.com</Link></li>
+                            <li><Link href="/"><i className="fa-solid fa-phone pe-2" />(0212) 322 80 00</Link></li>
                         </ul>
                         <div className="header-top__socials">
+                            <SocialLinks />
+
                             <Link href="/">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.4 10.5714L10.552 8L6.4 5.42857V10.5714ZM15.648 3.86C15.752 4.26286 15.824 4.80286 15.872 5.48857C15.928 6.17429 15.952 6.76571 15.952 7.28L16 8C16 9.87714 15.872 11.2571 15.648 12.14C15.448 12.9114 14.984 13.4086 14.264 13.6229C13.888 13.7343 13.2 13.8114 12.144 13.8629C11.104 13.9229 10.152 13.9486 9.272 13.9486L8 14C4.648 14 2.56 13.8629 1.736 13.6229C1.016 13.4086 0.552 12.9114 0.352 12.14C0.248 11.7371 0.176 11.1971 0.128 10.5114C0.0720001 9.82571 0.048 9.23429 0.048 8.72L0 8C0 6.12286 0.128 4.74286 0.352 3.86C0.552 3.08857 1.016 2.59143 1.736 2.37714C2.112 2.26571 2.8 2.18857 3.856 2.13714C4.896 2.07714 5.848 2.05143 6.728 2.05143L8 2C11.352 2 13.44 2.13714 14.264 2.37714C14.984 2.59143 15.448 3.08857 15.648 3.86Z" fill="white" />
-                                </svg>
-                            </Link>
-                            <Link href="/">
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M11.4023 1.40625H13.4707L8.95313 6.56836L14.2676 13.5938H10.1074L6.84668 9.33398L3.12012 13.5938H1.04883L5.87988 8.07129L0.785156 1.40625H5.05078L7.99512 5.2998L11.4023 1.40625ZM10.6758 12.3574H11.8213L4.42676 2.57812H3.19629L10.6758 12.3574Z"
-                                        fill="white" />
-                                </svg>
-                            </Link>
-                            <Link href="/">
-                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clipPath="url(#clip0_1349_8256)">
-                                        <path
-                                            d="M5.66164 15V8.1583H7.9572L8.3016 5.49117H5.66164V3.7886C5.66164 3.01665 5.87513 2.49057 6.98336 2.49057L8.39452 2.48999V0.104422C8.15048 0.072709 7.31278 0 6.33778 0C4.30183 0 2.90798 1.24272 2.90798 3.52445V5.49117H0.605469V8.1583H2.90798V15H5.66164Z"
-                                            fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1349_8256">
-                                            <rect width="9" height="15" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </Link>
-                            <Link href="/">
-                                <svg width="13" height="15" viewBox="0 0 13 15" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M12.4991 13.4999V9.10492C12.4991 6.94492 12.0341 5.29492 9.51414 5.29492C8.29914 5.29492 7.48914 5.95492 7.15914 6.58492H7.12914V5.48992H4.74414V13.4999H7.23414V9.52492C7.23414 8.47492 7.42914 7.46992 8.71914 7.46992C9.99414 7.46992 10.0091 8.65492 10.0091 9.58492V13.4849H12.4991V13.4999Z"
-                                        fill="white" />
-                                    <path d="M0.695312 5.49023H3.18531V13.5002H0.695312V5.49023Z" fill="white" />
-                                    <path
-                                        d="M1.94 1.5C1.145 1.5 0.5 2.145 0.5 2.94C0.5 3.735 1.145 4.395 1.94 4.395C2.735 4.395 3.38 3.735 3.38 2.94C3.38 2.145 2.735 1.5 1.94 1.5Z"
-                                        fill="white" />
-                                </svg>
-                            </Link>
-                            <Link href="/">
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g clipPath="url(#clip0_1349_8259)">
-                                        <path
-                                            d="M11.2497 0H3.74991C1.68764 0 0 1.68764 0 3.74991V11.2501C0 13.3118 1.68764 15 3.74991 15H11.2497C13.312 15 14.9996 13.3118 14.9996 11.2501V3.74991C14.9996 1.68764 13.312 0 11.2497 0ZM13.7496 11.2501C13.7496 12.6282 12.6286 13.75 11.2497 13.75H3.74991C2.37163 13.75 1.25003 12.6282 1.25003 11.2501V3.74991C1.25003 2.37145 2.37163 1.25003 3.74991 1.25003H11.2497C12.6286 1.25003 13.7496 2.37145 13.7496 3.74991V11.2501Z"
-                                            fill="white" />
-                                        <path
-                                            d="M11.5625 4.37495C12.0802 4.37495 12.5 3.95523 12.5 3.43748C12.5 2.91972 12.0802 2.5 11.5625 2.5C11.0447 2.5 10.625 2.91972 10.625 3.43748C10.625 3.95523 11.0447 4.37495 11.5625 4.37495Z"
-                                            fill="white" />
-                                        <path
-                                            d="M7.49991 3.75C5.42845 3.75 3.75 5.42863 3.75 7.49991C3.75 9.57041 5.42845 11.2502 7.49991 11.2502C9.57078 11.2502 11.2498 9.57041 11.2498 7.49991C11.2498 5.42863 9.57078 3.75 7.49991 3.75ZM7.49991 10.0002C6.11936 10.0002 5.00003 8.88082 5.00003 7.49991C5.00003 6.119 6.11936 5.00003 7.49991 5.00003C8.88045 5.00003 9.99979 6.119 9.99979 7.49991C9.99979 8.88082 8.88045 10.0002 7.49991 10.0002Z"
-                                            fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1349_8259">
-                                            <rect width="15" height="15" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </Link>
-                            <Link href="/">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8 16V14.2222H14.2222V1.77778H8V0H14.2222C14.7111 0 15.1298 0.174222 15.4782 0.522667C15.8267 0.871111 16.0006 1.28948 16 1.77778V14.2222C16 14.7111 15.8261 15.1298 15.4782 15.4782C15.1304 15.8267 14.7117 16.0006 14.2222 16H8ZM6.22222 12.4444L5 11.1556L7.26667 8.88889H0V7.11111H7.26667L5 4.84444L6.22222 3.55556L10.6667 8L6.22222 12.4444Z" fill="white" />
-                                </svg>
+                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
                                 <span className="text-white ms-2">Login</span>
                             </Link>
                             <Link className="pe-0" href="/">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.13737 2.12137C4.96994 2.49121 3.93906 3.20027 3.1761 4.15817C2.41315 5.11608 1.95268 6.27946 1.85337 7.50004H4.84004C4.86204 6.76937 4.93004 6.04937 5.04337 5.36671C5.18137 4.53071 5.38671 3.76004 5.65004 3.10004C5.78335 2.7601 5.94643 2.43261 6.13737 2.12137ZM8.00004 0.833374C7.0589 0.833374 6.12698 1.01875 5.25748 1.3789C4.38798 1.73906 3.59793 2.26696 2.93244 2.93244C2.26696 3.59793 1.73906 4.38798 1.3789 5.25748C1.01875 6.12698 0.833374 7.0589 0.833374 8.00004C0.833374 8.94118 1.01875 9.87311 1.3789 10.7426C1.73906 11.6121 2.26696 12.4022 2.93244 13.0676C3.59793 13.7331 4.38798 14.261 5.25748 14.6212C6.12698 14.9813 7.0589 15.1667 8.00004 15.1667C9.90076 15.1667 11.7236 14.4116 13.0676 13.0676C14.4116 11.7236 15.1667 9.90076 15.1667 8.00004C15.1667 6.09932 14.4116 4.27645 13.0676 2.93244C11.7236 1.58843 9.90076 0.833374 8.00004 0.833374ZM8.00004 1.83337C7.82604 1.83337 7.60071 1.91737 7.33937 2.18804C7.07537 2.46137 6.81204 2.88871 6.57871 3.47137C6.34737 4.05071 6.15871 4.74937 6.02937 5.53071C5.92604 6.15737 5.86271 6.82204 5.84137 7.50004H10.1587C10.1394 6.84017 10.0766 6.1823 9.97071 5.53071C9.84137 4.74937 9.65271 4.05071 9.42137 3.47137C9.18804 2.88871 8.92471 2.46137 8.66137 2.18804C8.39937 1.91737 8.17471 1.83337 8.00004 1.83337ZM11.16 7.50004C11.14 6.78518 11.0721 6.07247 10.9567 5.36671C10.8187 4.53071 10.6134 3.76004 10.35 3.10004C10.2165 2.76008 10.0532 2.43259 9.86204 2.12137C10.8047 2.41953 11.6617 2.94019 12.3607 3.63937C13.3948 4.6738 14.0276 6.04214 14.146 7.50004H11.16ZM10.1587 8.50004H5.84137C5.86204 9.17804 5.92604 9.84271 6.02937 10.4694C6.15871 11.2507 6.34737 11.9494 6.57871 12.5287C6.81204 13.1114 7.07537 13.5387 7.33871 13.812C7.60071 14.0827 7.82537 14.1667 8.00004 14.1667C8.17404 14.1667 8.39937 14.0827 8.66071 13.812C8.92471 13.5387 9.18804 13.1114 9.42137 12.5287C9.65271 11.9494 9.84137 11.2507 9.97071 10.4694C10.074 9.84271 10.1374 9.17804 10.1587 8.50004ZM9.86271 13.8787C10.0427 13.5894 10.206 13.2594 10.3494 12.9C10.6134 12.24 10.8187 11.4694 10.9567 10.6334C11.0719 9.92759 11.1396 9.21488 11.1594 8.50004H14.146C14.0467 9.72062 13.5863 10.884 12.8233 11.8419C12.0604 12.7998 11.0301 13.5089 9.86271 13.8787ZM6.13671 13.8787C5.94599 13.5674 5.78314 13.24 5.65004 12.9C5.38604 12.24 5.18071 11.4694 5.04271 10.6334C4.92755 9.92759 4.85985 9.21488 4.84004 8.50004H1.85337C1.95263 9.72054 2.413 10.8839 3.17583 11.8418C3.93866 12.7997 4.9694 13.5088 6.13671 13.8787Z" fill="white" />
-                                </svg>
-                                <span className="text-white ms-2">TR</span><i className="fa-light fa-angle-down text-white ms-2"></i>
+                                <i class="fa-solid fa-language"></i>
+                                <span className="text-white ms-2">TR</span><i className="fa-solid fa-angle-down ms-2"></i>
                             </Link>
                         </div>
                     </div>
@@ -125,7 +65,7 @@ const Header = ({ scroll }) => {
                                     <svg width="31" height="12" viewBox="0 0 31 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.1627 0.000125838C9.32789 -0.00514134 7.26125 0.154538 4.85608 0.555259C4.5722 0.598228 1.83709 2.28629 1.09969 3.45137C0.362303 4.61653 0.110058 6.83436 0.110058 6.83436C-0.0890218 7.7426 0.0319123 9.24381 0.0874472 9.38977C0.162391 9.7058 0.585788 9.97103 1.31299 10.1628C1.3978 8.70344 2.51555 7.56629 3.86709 7.56448C5.28217 7.56448 6.42925 8.80574 6.42925 10.3367C6.42834 10.4589 6.41995 10.581 6.40414 10.7021C6.44194 10.7026 6.48485 10.7037 6.52072 10.7041L21.8467 10.8421C21.8176 10.6754 21.8028 10.5063 21.8023 10.3367C21.8023 8.80574 22.9495 7.56448 24.3645 7.56448C25.7796 7.56448 26.9266 8.80574 26.9266 10.3367C26.9266 10.5216 26.9096 10.7061 26.8756 10.8872L30.8589 10.9231C30.9433 9.34209 31.2983 7.68168 30.409 6.29904C30.0595 5.75569 28.3637 4.7717 24.0657 4.03555C21.8451 2.82895 19.6778 1.46087 17.3176 0.676889C15.4978 0.286355 13.5218 0.00684842 11.1627 0.000125838ZM10.0611 0.830677C10.4453 0.833726 10.7977 0.850775 11.0869 0.886814L11.5536 4.23785C8.89988 3.88488 6.19571 3.56815 4.76622 2.33196C4.78863 1.95078 5.27609 1.39898 5.82349 1.18801C6.13351 1.06853 8.39635 0.817509 10.0612 0.830677H10.0611ZM12.279 0.854794C13.8811 0.873091 16.2524 1.04122 17.8839 1.82091C18.6654 2.21248 20.1369 3.12897 21.121 3.93817L20.7142 4.6683C18.0428 4.53801 14.4825 4.37701 13.0213 4.19841L12.279 0.854794ZM3.86709 8.67336C3.45937 8.67336 3.06835 8.8486 2.78005 9.16054C2.49175 9.47247 2.32979 9.89554 2.32979 10.3367C2.32979 10.7778 2.49175 11.2009 2.78005 11.5128C3.06835 11.8248 3.45937 12 3.86709 12C4.27481 12 4.66582 11.8248 4.95412 11.5128C5.24242 11.2009 5.40439 10.7778 5.40439 10.3367C5.40439 9.89554 5.24242 9.47247 4.95412 9.16054C4.66582 8.8486 4.27481 8.67336 3.86709 8.67336ZM24.3644 8.67336C23.9567 8.67336 23.5657 8.8486 23.2774 9.16054C22.9891 9.47247 22.8271 9.89554 22.8271 10.3367C22.8271 10.7778 22.9891 11.2009 23.2774 11.5128C23.5657 11.8248 23.9567 12 24.3644 12C24.7721 12 25.1631 11.8248 25.4514 11.5128C25.7397 11.2009 25.9017 10.7778 25.9017 10.3367C25.9017 9.89554 25.7397 9.47247 25.4514 9.16054C25.1631 8.8486 24.7721 8.67336 24.3644 8.67336Z" fill="#A5875A"/></svg>
                                 </button>
                                 <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                                    <i className="fa-light fa-magnifying-glass"></i>
+                                    <i className="fa-solid fa-magnifying-glass"></i>
                                 </button>
                                 <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                                     <span></span>
@@ -142,7 +82,7 @@ const Header = ({ scroll }) => {
                 <div className="offcanvas-header">
                     <Link href="/" className="logo"><img src="assets/images/logo/gelecek-logo-light.png" alt="logo" /></Link>
                     <button type="button" className="btn-close" onClick={handleToggleSidebar}>
-                        <i className="fa-regular fa-xmark" />
+                        <i className="fa-solid fa-xmark" />
                     </button>
                 </div>
                 <div className="offcanvas-body sidebar__body">
@@ -154,20 +94,20 @@ const Header = ({ scroll }) => {
                         </div>
                     </div>
                     <div className="d-none d-lg-block">
-                        <h5 className="text-white mb-20">About Us</h5>
-                        <p className="sidebar__text">Unleash the full potential of your website and elevate its online presence with our comprehensive consultation solutions.</p>
+                        <h5 className="text-white mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h5>
+                        <p className="sidebar__text lh-sm">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>
                     <div className="sidebar__contact-info mt-30">
-                        <h5 className="text-white mb-20">Contact Info</h5>
+                        <h5 className="text-white mb-10">İletişim:</h5>
                         <ul>
-                            <li><i className="fa-solid fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
-                            <li className="py-2"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+912659302003">+91 2659302 003</Link></li>
-                            <li><i className="fa-solid fa-paper-plane" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="d-inline fa-solid fa-location-dot" /><Link className="d-inline" href="/">Hamidiye Mah. Selçuklu Cad. No:10/H A Blok 34408 Kağıthane/İstanbul</Link></li>
+                            <li className="py-1"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+902123228000">(0212) 322 80 00</Link></li>
+                            <li><i className="fa-solid fa-paper-plane" /><Link href="/">istanbul@gelecek.com</Link></li>
                         </ul>
                     </div>
-                    <div className="sidebar__btns my-4">
-                        <Link href="/">Sign Up</Link>
-                        <Link className="sign-in" href="/">Sign In</Link>
+                    <div className="sidebar__btns my-5">
+                        <Link href="/">Kayıt Ol</Link>
+                        <Link className="sign-in" href="/">Giriş Yap</Link>
                     </div>
                     <div className="sidebar__socials">
                         <ul>
@@ -206,7 +146,7 @@ const Header = ({ scroll }) => {
 
             <div className={`search-wrap ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch} />
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch} />
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">
