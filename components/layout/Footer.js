@@ -39,10 +39,10 @@ const Footer = () => {
                         <Link href="/" className="logo">
                             <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" />
                         </Link>
-                        <h5 className="title fs-20 text-white mt-20">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h5>
-                        <p className="mt-20 lh-sm text-white">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
+                        <h4 className="title text-white mt-20">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
+                        <p className="mt-15 lh-sm text-white">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
 
-                        <div className="footer__item-last mt-30">
+                        <div className="footer__item-last mt-40">
                             {/* <h4 className="title">Follow Us</h4> */}
                             <SocialLinks />
                         </div>
@@ -53,10 +53,10 @@ const Footer = () => {
                         <div className="footer__item-wrp">
                             {/* Services */}
                             <div className="footer__item">
-                                <h4 className="title">Mercedes-Benz <br />Service24h <br />444 62 44</h4>
-                                <h4 className="title">Mercedes-Benz Guides</h4>
+                                <h4 className="title fs-28">Mercedes-Benz <br />Service24h <br />444 62 44</h4>
+                                <h4 className="title fs-28">Mercedes-Benz Guides</h4>
 
-                                <Link href="/" className="app-store">
+                                <Link href="/" className="d-flex align-items-center gap-3 mt-30">
                                     <img src="assets/images/app/app-store.png" width="153" alt="App Store" />
                                     <img src="assets/images/app/google-play.png" width="135" alt="Google Play" />
                                 </Link>
