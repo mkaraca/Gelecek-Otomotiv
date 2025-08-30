@@ -6,7 +6,7 @@ export default function ProjectsPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Projects Grid" />
                 <ProjectGrid />
             </Layout>

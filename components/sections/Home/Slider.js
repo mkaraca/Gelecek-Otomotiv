@@ -14,7 +14,7 @@ const swiperOptions = {
     // },
     loop: true,
     pagination: {
-        el: '.slider-home-main-pagination',
+        el: '.pagination-home-main',
         clickable: true,
     }
 };
@@ -35,11 +35,11 @@ function Slider() {
             <section className="slider-home-main">
                 <Swiper {...swiperOptions} className="swiper-wrapper">
                     <SwiperSlide>
-                        <video className="banner-eight__video" ref={videoRef} muted loop playsInline autoPlay>
+                        <video className="slider-home-main__video" ref={videoRef} muted loop playsInline autoPlay>
                             <source src="assets/video/mb-slider-video-1.mp4" type="video/mp4" />
                         </video>
                         <div className="container">
-                            <div className="banner-eight__content">
+                            <div className="slider-home-main__content">
                                 <h2 className="title wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Tamamen Elektrikli, Tamamen Mercedes.</h2>
                                 <div className="btns mt-20">
@@ -50,11 +50,11 @@ function Slider() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <video className="banner-eight__video" ref={videoRef} muted loop playsInline autoPlay>
+                        <video className="slider-home-main__video" ref={videoRef} muted loop playsInline autoPlay>
                             <source src="assets/video/mb-slider-video-2.mp4" type="video/mp4" />
                         </video>
                         <div className="container">
-                            <div className="banner-eight__content">
+                            <div className="slider-home-main__content">
                                 <h2 className="title text-center wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Tamamen Elektrikli, Tamamen Mercedes.</h2>
                                 <div className="btns d-flex justify-content-center mt-20">
@@ -65,7 +65,7 @@ function Slider() {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div className="slider-home-main-pagination"></div>
+                <div className="slider-home-pagination pagination-home-main"></div>
             </section>
         </>
     )

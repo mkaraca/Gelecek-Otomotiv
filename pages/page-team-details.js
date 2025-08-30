@@ -6,7 +6,7 @@ export default function TeamDetailsPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Team Details" />
                 <TeamDetails />
             </Layout>

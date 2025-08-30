@@ -8,7 +8,7 @@ export default function Contactus() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Contact Us" />
                 <Contact />
                 <Brand />

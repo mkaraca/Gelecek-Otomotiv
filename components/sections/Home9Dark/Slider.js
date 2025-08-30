@@ -19,7 +19,7 @@ function Slider() {
                             that sparks action.</p>
                         <div>
                             <div className="wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <Link href="#feature" className="arry-btn animation__arryUpDown"><i className="fa-light fa-arrow-right-long"></i></Link>
+                                <Link href="#feature" className="arry-btn animation__arryUpDown"><i className="fa-solid fa-arrow-right-long"></i></Link>
                             </div>
                         </div>
                     </div>

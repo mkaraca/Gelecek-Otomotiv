@@ -18,7 +18,7 @@ function Chooseus() {
                         <img src="assets/images/choose/choose-four-image.jpg" alt="image" />
                         <div className="choose-four__video-btn">
                             <div className="btn-video video-pulse">
-                                <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-light fa-play" /></a>
+                                <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-solid fa-play" /></a>
                             </div>
                             <h4>Click to Watch</h4>
                         </div>

@@ -33,12 +33,12 @@ function Pricing() {
                                         <Link href="/contact" className="btn-two w-100 rounded-0" data-splitting
                                             data-text="Chat to Sales">Chat to Sales</Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-xmark" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-xmark" /> Power And Predictive Dialling</li>
-                                            <li><i className="fa-light fa-xmark" /> Free Consultation Until Cooperation</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-xmark" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-xmark" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-xmark" /> Free Consultation Until Cooperation</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -69,12 +69,12 @@ function Pricing() {
                                     <Link href="/contact" className="btn-two-light w-100 rounded-0" data-splitting
                                         data-text="Chat to Sales">Chat to Sales</Link>
                                     <ul>
-                                        <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                        <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                        <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                        <li><i className="fa-light fa-check" /> Smart Lighting Control</li>
-                                        <li><i className="fa-light fa-check" /> Power And Predictive Dialling</li>
-                                        <li><i className="fa-light fa-xmark" /> Free Consultation Until Cooperation</li>
+                                        <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                        <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                        <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                        <li><i className="fa-solid fa-check" /> Smart Lighting Control</li>
+                                        <li><i className="fa-solid fa-check" /> Power And Predictive Dialling</li>
+                                        <li><i className="fa-solid fa-xmark" /> Free Consultation Until Cooperation</li>
                                     </ul>
                                 </div>
                             </div>
@@ -98,12 +98,12 @@ function Pricing() {
                                         <Link href="/contact" className="btn-two w-100 rounded-0" data-splitting
                                             data-text="Chat to Sales">Chat to Sales</Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-check" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-check" /> Power And Predictive Dialling</li>
-                                            <li><i className="fa-light fa-check" /> Free Consultation Until Cooperation</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-check" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-check" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> Free Consultation Until Cooperation</li>
                                         </ul>
                                     </div>
                                 </div>

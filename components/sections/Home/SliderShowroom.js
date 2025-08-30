@@ -14,7 +14,7 @@ const swiperOptions = {
     // },
     loop: true,
     pagination: {
-        el: '.slider-home-main-pagination',
+        el: '.pagination-home-showroom',
         clickable: true,
     }
 };
@@ -32,41 +32,65 @@ function SliderShowroom() {
 
     return (
         <>
-            <section className="slider-home-main">
+            <div className="slider-showroom-main">
                 <Swiper {...swiperOptions} className="swiper-wrapper">
                     <SwiperSlide>
-                        <video className="banner-eight__video" ref={videoRef} muted loop playsInline autoPlay>
-                            <source src="assets/video/mb-slider-video-1.mp4" type="video/mp4" />
-                        </video>
-                        <div className="container">
-                            <div className="banner-eight__content">
-                                <h2 className="title wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    Tamamen Elektrikli, Tamamen Mercedes.</h2>
-                                <div className="btns mt-20">
-                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light px-5 wow fadeInUp"
-                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="fa-solid fa-arrow-right"></i></Link>
-                                </div>
+                        <img src="assets/images/showroom/gelecek-showroom-istanbul.png" alt="showroom" />
+                        <div className="showroom-link-wr">
+                            <div className="position-relative">
+                                <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                                <Link href="/page-about" className="showroom-link">
+                                    <h4 className="">Gelecek İstanbul</h4>
+                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                </Link>
+                                <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <video className="banner-eight__video" ref={videoRef} muted loop playsInline autoPlay>
-                            <source src="assets/video/mb-slider-video-2.mp4" type="video/mp4" />
+                        <img src="assets/images/showroom/gelecek-showroom-diyarbakir.png" alt="showroom" />
+                        <div className="showroom-link-wr">
+                            <div className="position-relative">
+                                <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                                <Link href="/page-about" className="showroom-link">
+                                    <h4 className="">Gelecek Diyarbakır</h4>
+                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                </Link>
+                                <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <video className="slider-home-showroom__video" ref={videoRef} muted loop playsInline autoPlay>
+                            <source src="assets/images/showroom/gelecek-showroom-diyarbakir.mp4" type="video/mp4" />
                         </video>
-                        <div className="container">
-                            <div className="banner-eight__content">
-                                <h2 className="title text-center wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    Tamamen Elektrikli, Tamamen Mercedes.</h2>
-                                <div className="btns d-flex justify-content-center mt-20">
-                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light px-5 wow fadeInUp"
-                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="fa-solid fa-arrow-right"></i></Link>
-                                </div>
+                        <div className="showroom-link-wr">
+                            <div className="position-relative">
+                                <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                                <Link href="/page-about" className="showroom-link">
+                                    <h4 className="">Gelecek Diyarbakır</h4>
+                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                </Link>
+                                <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="assets/images/showroom/gelecek-showroom-erzurum.png" alt="showroom" />
+                        <div className="showroom-link-wr">
+                            <div className="position-relative">
+                                <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
+                                <Link href="/page-about" className="showroom-link">
+                                    <h4 className="">Gelecek Erzurum</h4>
+                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                </Link>
+                                <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div className="slider-home-main-pagination"></div>
-            </section>
+                <div className="slider-home-pagination pagination-home-showroom"></div>
+            </div>
         </>
     )
 }

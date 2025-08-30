@@ -17,7 +17,7 @@ function Case() {
                             <div className="col-lg-6 col-xl-7 col-xxl-8">
                                 <div className="image">
                                     <img src="assets/images/case/case-image1.jpg" alt="image" />
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-right-long" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-right-long" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-xl-5 col-xxl-4">
@@ -33,7 +33,7 @@ function Case() {
                             <div className="col-lg-6 col-xl-7 col-xxl-8">
                                 <div className="image">
                                     <img src="assets/images/case/case-image2.jpg" alt="image" />
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-right-long" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-right-long" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-xl-5 col-xxl-4">
@@ -49,7 +49,7 @@ function Case() {
                             <div className="col-lg-6 col-xl-7 col-xxl-8">
                                 <div className="image">
                                     <img src="assets/images/case/case-image3.jpg" alt="image" />
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-right-long" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-right-long" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-xl-5 col-xxl-4">
@@ -65,7 +65,7 @@ function Case() {
                             <div className="col-lg-6 col-xl-7 col-xxl-8">
                                 <div className="image">
                                     <img src="assets/images/case/case-image4.jpg" alt="image" />
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-right-long" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-right-long" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-xl-5 col-xxl-4">

@@ -110,7 +110,7 @@ function Professional() {
                     </div>
                     <div className="col-lg-4">
                         <div className="btn-video video-pulse">
-                            <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-light fa-play"></i></a>
+                            <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-solid fa-play"></i></a>
                         </div>
                     </div>
                 </div>

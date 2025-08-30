@@ -67,7 +67,7 @@ const Footer3 = () => {
                                 <div className="mailUs mt-30">
                                     <form onSubmit={handleSubmit}>
                                         <span>
-                                            <i className="fa-light fa-envelope" aria-hidden="true" />
+                                            <i className="fa-solid fa-envelope" aria-hidden="true" />
                                             <label htmlFor="newsletter-email" className="sr-only">Your Email</label>
                                         </span>
                                         <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)} required />

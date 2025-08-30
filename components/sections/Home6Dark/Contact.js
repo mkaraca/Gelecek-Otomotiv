@@ -44,7 +44,7 @@ function Contact() {
                     <div className="contact-six__image ">
                         <img src="assets/images/contact/contact-six-image.jpg" alt="image" />
                         <Link href="/contact" className="circle-btn">
-                            <span><i className="fa-light fa-arrow-right"></i></span>
+                            <span><i className="fa-solid fa-arrow-right"></i></span>
                             <span>Contact us</span> <span>Now</span></Link>
                     </div>
                 </div>

@@ -37,16 +37,16 @@ function About() {
                             </div>
                             <div className="about-two__content">
                                 <ul className="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <li><i className="fa-light fa-check" />Strategic Analysis for Businesses</li>
-                                    <li><i className="fa-light fa-check" />24/7 Support at Any Time</li>
-                                    <li><i className="fa-light fa-check" />Exceptional Atmosphere</li>
-                                    <li><i className="fa-light fa-check" />Complimentary Breakfast</li>
+                                    <li><i className="fa-solid fa-check" />Strategic Analysis for Businesses</li>
+                                    <li><i className="fa-solid fa-check" />24/7 Support at Any Time</li>
+                                    <li><i className="fa-solid fa-check" />Exceptional Atmosphere</li>
+                                    <li><i className="fa-solid fa-check" />Complimentary Breakfast</li>
                                 </ul>
                                 <ul className="wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <li><i className="fa-light fa-check" />Orientation for Business</li>
-                                    <li><i className="fa-light fa-check" />No Booking Fees</li>
-                                    <li><i className="fa-light fa-check" />Exceptional Atmosphere</li>
-                                    <li><i className="fa-light fa-check" />Analyze the Problems You are Facing</li>
+                                    <li><i className="fa-solid fa-check" />Orientation for Business</li>
+                                    <li><i className="fa-solid fa-check" />No Booking Fees</li>
+                                    <li><i className="fa-solid fa-check" />Exceptional Atmosphere</li>
+                                    <li><i className="fa-solid fa-check" />Analyze the Problems You are Facing</li>
                                 </ul>
                             </div>
                             <Link href="/page-about" className="btn-one dark-mode wow fadeInDown mt-50" data-wow-delay="400ms" data-wow-duration="1500ms" data-splitting data-text="Discover More">Discover More</Link>

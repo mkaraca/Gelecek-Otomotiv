@@ -7,7 +7,7 @@ export default function TestimonialPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Testimonial" />
                 <TestimonialInner />
                 <Brand />

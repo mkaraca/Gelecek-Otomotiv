@@ -17,11 +17,11 @@ const Header = ({ scroll }) => {
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
                             <li>
-                                <i className="fa-light fa-location-dot" />
+                                <i className="fa-solid fa-location-dot" />
                                 <Link href="/">121 King Street, Melbourne</Link>
                             </li>
                             <li>
-                                <i className="fa-light fa-envelope-open-text" />
+                                <i className="fa-solid fa-envelope-open-text" />
                                 <Link href="/">info.company@gmail.com</Link>
                             </li>
                         </ul>
@@ -96,7 +96,7 @@ const Header = ({ scroll }) => {
                             </nav>
                             <div className="menu-btns light">
                                 <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                                    <i className="fa-light fa-magnifying-glass" />
+                                    <i className="fa-solid fa-magnifying-glass" />
                                 </button>
                                 <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                                     <span></span>

@@ -22,27 +22,27 @@ function Serveice() {
                                 <ul className="nav nav-tabs" id="serviceTab" role="tablist">
                                     <li className="nav-item" role="presentation">
                                         <button id="info-tab" className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)} data-tab="#info" >
-                                            Information Collection <i className="fa-light fa-arrow-up-right"></i>
+                                            Information Collection <i className="fa-solid fa-arrow-up-right"></i>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button id="projection-tab" className={activeIndex === 2 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(2)} data-tab="#projection" >
-                                        Projection Report Analysis <i className="fa-light fa-arrow-up-right"></i>
+                                        Projection Report Analysis <i className="fa-solid fa-arrow-up-right"></i>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button id="business-tab" className={activeIndex === 3 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(3)} data-tab="#business" >
-                                        Corporate Business Design <i className="fa-light fa-arrow-up-right"></i>
+                                        Corporate Business Design <i className="fa-solid fa-arrow-up-right"></i>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button id="design-tab" className={activeIndex === 4 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(4)} data-tab="#design" >
-                                        Design Consulting <i className="fa-light fa-arrow-up-right"></i>
+                                        Design Consulting <i className="fa-solid fa-arrow-up-right"></i>
                                         </button>
                                     </li>
                                     <li className="nav-item" role="presentation">
                                         <button id="residential-tab" className={activeIndex === 5 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(5)} data-tab="residential" >
-                                        Residential Business <i className="fa-light fa-arrow-up-right"></i>
+                                        Residential Business <i className="fa-solid fa-arrow-up-right"></i>
                                         </button>
                                     </li>
                                 </ul>
@@ -88,16 +88,16 @@ function Serveice() {
                                 <div className="pricing-five__item p-0 border-0 wow fadeInDown" data-wow-delay="200ms"
                                     data-wow-duration="1500ms">
                                     <ul>
-                                        <li><i className="fa-light fa-check"></i>
+                                        <li><i className="fa-solid fa-check"></i>
                                             <h5>Seasoned and Skilled Engineers</h5>
                                         </li>
-                                        <li><i className="fa-light fa-check"></i>
+                                        <li><i className="fa-solid fa-check"></i>
                                             <h5>Dedicated to Exceptional Customer Service</h5>
                                         </li>
-                                        <li><i className="fa-light fa-check"></i>
+                                        <li><i className="fa-solid fa-check"></i>
                                             <h5>Dedicated to Easing the Stress of Your Project</h5>
                                         </li>
-                                        <li><i className="fa-light fa-check"></i>
+                                        <li><i className="fa-solid fa-check"></i>
                                             <h5>Adaptable to Any Building Structure</h5>
                                         </li>
                                     </ul>

@@ -40,7 +40,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">Consulting services involve providing expert advice and solutions to businesses, organizations to help</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -71,7 +71,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">Marketing services involve strategies, tactics, and tools to promote products, services, or brands to attract customers.</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -99,7 +99,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">IT solution services involve providing technology-based solutions to address challenges, improve operations productivity.</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -132,7 +132,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">Human consultation services focus on improving an organization's human resources and workforce management.</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -161,7 +161,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">Business consultation services involve providing expert advice to organizations on various aspects of their operations.</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -182,7 +182,7 @@ function Service() {
                                     </svg>
                                 </div>
                                 <p className="text">Finance insurance refers to a range of insurance products designed to mitigate financial risks protection</p>
-                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/page-service-details" className="btn-more">Read More <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

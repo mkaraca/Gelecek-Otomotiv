@@ -46,14 +46,14 @@ const Header5Dark = ({ scroll }) => {
                             </div>
                         </div>
                         <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                            <i className="fa-light fa-magnifying-glass" />
+                            <i className="fa-solid fa-magnifying-glass" />
                         </button>
                         <button className="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                             <span></span>
                             <span></span>
                             <span></span>
                         </button>
-                        <Link href="/contact" className="header-btn bg-black text-white">Get in Touch <i className="fa-light fa-arrow-up-right" /></Link>
+                        <Link href="/contact" className="header-btn bg-black text-white">Get in Touch <i className="fa-solid fa-arrow-up-right" /></Link>
                     </div>
                 </div>
             </header>
@@ -131,7 +131,7 @@ const Header5Dark = ({ scroll }) => {
 
             <div className={`search-wrap light-area ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">

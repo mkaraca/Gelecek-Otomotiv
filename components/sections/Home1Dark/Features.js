@@ -21,7 +21,7 @@ const FeatureItem = ({ icon, title, link, description }) => (
                 <p>{description}</p>
             </div>
             <Link href={link} className="arrow-btn">
-                <i className="fa-light fa-arrow-right" />
+                <i className="fa-solid fa-arrow-right" />
             </Link>
         </div>
     </div>

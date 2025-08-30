@@ -167,8 +167,8 @@ function Testimonial() {
                             </SwiperSlide>
                         </Swiper>
                     </div>
-                    <button className="testimonial-three__arry-prev"><i className="fa-light fa-chevron-left"></i><span>PREV</span></button>
-                    <button className="testimonial-three__arry-next"> <span>NEXT</span><i className="fa-light fa-chevron-right"></i></button>
+                    <button className="testimonial-three__arry-prev"><i className="fa-solid fa-chevron-left"></i><span>PREV</span></button>
+                    <button className="testimonial-three__arry-next"> <span>NEXT</span><i className="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </section>

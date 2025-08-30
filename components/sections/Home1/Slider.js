@@ -80,7 +80,7 @@ function Slider() {
                                     </p>
                                     <div data-animation="fadeInDown" data-duration="2s" data-delay="2s">
                                         <Link href="/" className="arry-btn animation__arryUpDown">
-                                            <i className="fa-light fa-arrow-right-long" />
+                                            <i className="fa-solid fa-arrow-right-long" />
                                         </Link>
                                     </div>
                                 </div>

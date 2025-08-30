@@ -6,7 +6,7 @@ export default function PageShopDetails() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Product Deatils" />
                 <ShopDetails />
             </Layout>

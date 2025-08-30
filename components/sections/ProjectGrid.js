@@ -96,7 +96,7 @@ function ProjectGrid() {
                                     <h4>.01</h4>
                                     <h4><Link className="hover-link-light" href="/page-project-details">Marketing strategy</Link></h4>
                                     <p className="mt-15 mb-25">Reedfish bonefish trahira bristlenose catfish, longnose lancetfish morid.</p>
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-up-right" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-up-right" /></Link>
                                 </div>
                             </div>
                             <div className="image">
@@ -135,7 +135,7 @@ function ProjectGrid() {
                                     <h4>.02</h4>
                                     <h4><Link className="hover-link-light" href="/page-project-details">Brand Identity</Link> </h4>
                                     <p className="mt-15 mb-25">Reedfish bonefish trahira bristlenose catfish, longnose lancetfish morid.</p>
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-up-right" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-up-right" /></Link>
                                 </div>
                             </div>
                             <div className="image">
@@ -175,7 +175,7 @@ function ProjectGrid() {
                                     <h4>.03</h4>
                                     <h4><Link className="hover-link-light" href="/page-project-details">Visual Design</Link></h4>
                                     <p className="mt-15 mb-25">Reedfish bonefish trahira bristlenose catfish, longnose lancetfish morid.</p>
-                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-light fa-arrow-up-right" /></Link>
+                                    <Link href="/page-project-details" className="arry-btn"><i className="fa-solid fa-arrow-up-right" /></Link>
                                 </div>
                             </div>
                             <div className="image">

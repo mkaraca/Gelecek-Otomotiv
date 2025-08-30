@@ -43,8 +43,8 @@ function Testimonial() {
                             <p className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our success lies in achieving over 99% customer satisfaction.</p>
                         </div>
                         <div className="arry__wrp wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <button className="testimonial-four__arry-prev arry-prev"><i className="fa-light fa-chevron-left" /></button>
-                            <button className="testimonial-four__arry-next arry-next"><i className="fa-light fa-chevron-right" /></button>
+                            <button className="testimonial-four__arry-prev arry-prev"><i className="fa-solid fa-chevron-left" /></button>
+                            <button className="testimonial-four__arry-next arry-next"><i className="fa-solid fa-chevron-right" /></button>
                         </div>
                     </div>
                     <div className="swiper testimonial-four__slider">

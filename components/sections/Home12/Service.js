@@ -99,20 +99,20 @@ function Service() {
                             <h3 className="text-white mb-15">Service List</h3>
                             <div className="list">
                                 <ul>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Financial Planning</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Performance Analysis</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Investment Advisory</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Business Intelligence</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Manage Investment</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Tax Planning</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Financial Planning</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Performance Analysis</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Investment Advisory</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Business Intelligence</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Manage Investment</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Tax Planning</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Business Innovations</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Collaborative Approach</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Technology Integration</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Custom Solutions</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Transforming Futures</Link></li>
-                                    <li><Link href="/page-service-details"><i className="fa-light fa-arrow-right-long" /> Guiding Excellence</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Business Innovations</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Collaborative Approach</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Technology Integration</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Custom Solutions</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Transforming Futures</Link></li>
+                                    <li><Link href="/page-service-details"><i className="fa-solid fa-arrow-right-long" /> Guiding Excellence</Link></li>
                                 </ul>
                             </div>
                             <div className="rectangle">

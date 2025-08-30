@@ -6,7 +6,7 @@ export default function NewsDetails() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Blog Details" />
                 <BlogDetails />
             </Layout>

@@ -108,7 +108,7 @@ const Header6Single = ({ scroll }) => {
 
             <div className={`search-wrap ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">

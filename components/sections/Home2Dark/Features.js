@@ -38,7 +38,7 @@ function Features() {
                                         tailored to their unique needs.</p>
                                 </div>
                                 <Link href="/page-service-details" className="readMore-btn">Read More <i
-                                        className="fa-light fa-arrow-right"></i></Link>
+                                        className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -74,7 +74,7 @@ function Features() {
                                         their distinct challenges."</p>
                                 </div>
                                 <Link href="/page-service-details" className="readMore-btn">Read More <i
-                                        className="fa-light fa-arrow-right"></i></Link>
+                                        className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -109,7 +109,7 @@ function Features() {
                                         address their distinct challenges.</p>
                                 </div>
                                 <Link href="/page-service-details" className="readMore-btn">Read More <i
-                                        className="fa-light fa-arrow-right"></i></Link>
+                                        className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

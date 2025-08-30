@@ -6,7 +6,7 @@ export default function PageShopCart() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Cart" />
                 <ShopCart />
             </Layout>

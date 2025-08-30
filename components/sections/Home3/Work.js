@@ -32,7 +32,7 @@ function Work() {
                                 <div className="content">
                                     <h4 className="mb-10">Project Planning</h4>
                                     <p>We arrange meetings with our customers at a designated location to thoroughly discuss their specific needs, preferences, and demands.</p>
-                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-light fa-arrow-right" /></Link>
+                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-solid fa-arrow-right" /></Link>
                                 </div>
                             </div>
                             <div className="work__item">
@@ -40,7 +40,7 @@ function Work() {
                                 <div className="content">
                                     <h4 className="mb-10">Idea & Concept</h4>
                                     <p>We arrange meetings with our customers at a designated location to thoroughly discuss their specific needs, preferences, and demands.</p>
-                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-light fa-arrow-right" /></Link>
+                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-solid fa-arrow-right" /></Link>
                                 </div>
                             </div>
                             <div className="work__item">
@@ -48,7 +48,7 @@ function Work() {
                                 <div className="content">
                                     <h4 className="mb-10">User Testing</h4>
                                     <p>We arrange meetings with our customers at a designated location to thoroughly discuss their specific needs, preferences, and demands.</p>
-                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-light fa-arrow-right" /></Link>
+                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-solid fa-arrow-right" /></Link>
                                 </div>
                             </div>
                             <div className="work__item">
@@ -56,7 +56,7 @@ function Work() {
                                 <div className="content">
                                     <h4 className="mb-10">Execute and Developed</h4>
                                     <p>We arrange meetings with our customers at a designated location to thoroughly discuss their specific needs, preferences, and demands.</p>
-                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-light fa-arrow-right" /></Link>
+                                    <Link href="/page-project-details" className="btn-view mt-20">View Details <i className="fa-solid fa-arrow-right" /></Link>
                                 </div>
                             </div>
                         </div>

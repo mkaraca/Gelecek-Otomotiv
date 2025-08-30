@@ -37,7 +37,7 @@ function Footer4Dark () {
                                 <p>Feel free to reach out if you want to collaborate with us, or simply chat.</p>
                                 <form onSubmit={(e) => e.preventDefault()}>
                                     <span>
-                                        <i className="fa-light fa-envelope" aria-hidden="true" />
+                                        <i className="fa-solid fa-envelope" aria-hidden="true" />
                                         <label htmlFor="newsletter-email" className="sr-only">Your Email</label>
                                     </span>
                                     <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required/>

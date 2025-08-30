@@ -44,7 +44,7 @@ export default function Section1() {
                                         <h1 className="title" data-animation="slideInLeft" data-duration="1s" data-delay="1s">Accelerate your business Sustainable Growth</h1>
                                         <p className="text" data-animation="slideInLeft" data-duration="1.5s" data-delay="1.1s">We bring a fresh, dynamic perspective to every client relationship, driven by a relentless energy that sparks action.</p>
                                         <div data-animation="fadeInDown" data-duration="2s" data-delay="2s">
-                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-light fa-arrow-right-long" /></Link>
+                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-solid fa-arrow-right-long" /></Link>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -56,7 +56,7 @@ export default function Section1() {
                                         <h1 className="title" data-animation="slideInLeft" data-duration="1s" data-delay="1s">Accelerate your business Sustainable Growth</h1>
                                         <p className="text" data-animation="slideInLeft" data-duration="1.5s" data-delay="1.1s">We bring a fresh, dynamic perspective to every client relationship, driven by a relentless energy that sparks action.</p>
                                         <div data-animation="fadeInDown" data-duration="2s" data-delay="2s">
-                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-light fa-arrow-right-long" /></Link>
+                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-solid fa-arrow-right-long" /></Link>
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -68,7 +68,7 @@ export default function Section1() {
                                         <h1 className="title" data-animation="slideInLeft" data-duration="1s" data-delay="1s">Accelerate your business Sustainable Growth</h1>
                                         <p className="text" data-animation="slideInLeft" data-duration="1.5s" data-delay="1.1s">We bring a fresh, dynamic perspective to every client relationship, driven by a relentless energy that sparks action.</p>
                                         <div data-animation="fadeInDown" data-duration="2s" data-delay="2s">
-                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-light fa-arrow-right-long" /></Link>
+                                            <Link href="/" className="arry-btn animation__arryUpDown"><i className="fa-solid fa-arrow-right-long" /></Link>
                                         </div>
                                     </div>
                                 </SwiperSlide>

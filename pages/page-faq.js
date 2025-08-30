@@ -7,7 +7,7 @@ export default function FaqPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="FAQ" />
                 <FaqInner />
                 <Brand />

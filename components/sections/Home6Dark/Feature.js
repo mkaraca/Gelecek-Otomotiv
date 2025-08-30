@@ -41,7 +41,7 @@ function Feature() {
                                         needs. Let your business grow
                                         naturally with a comprehensive approach.</p>
                                     <Link href="/contact" className="btn-more mt-15">Contact Now <i
-                                            className="fa-light fa-arrow-right"></i></Link>
+                                            className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ function Feature() {
                                         decision-making. By assessing data and trends, experts
                                         provide clear.</p>
                                     <Link href="/contact" className="btn-more mt-15">Contact Now <i
-                                            className="fa-light fa-arrow-right"></i></Link>
+                                            className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ function Feature() {
                                         been recognized for excellence in a specific field or
                                         achievement.</p>
                                     <Link href="/contact" className="btn-more mt-15">Contact Now <i
-                                            className="fa-light fa-arrow-right"></i></Link>
+                                            className="fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>

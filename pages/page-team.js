@@ -6,7 +6,7 @@ export default function TeamPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Team Grid" />
                 <TeamGrid />
             </Layout>

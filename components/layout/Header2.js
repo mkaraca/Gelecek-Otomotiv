@@ -26,7 +26,7 @@ const Header2 = ({ scroll }) => {
                             </nav>
                             <div className="menu-btns light">
                                 <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                                    <i className="fa-light fa-magnifying-glass" />
+                                    <i className="fa-solid fa-magnifying-glass" />
                                 </button>
                                 <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                                     <span />
@@ -112,7 +112,7 @@ const Header2 = ({ scroll }) => {
 
             <div className={`search-wrap ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">

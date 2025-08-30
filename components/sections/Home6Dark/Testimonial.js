@@ -184,8 +184,8 @@ function Testimonial() {
                                 </div>
                                 <h5>(30+) Customer <br /> reviews</h5>
                                 <div className="testimonial__slider-arry dark-mode">
-                                    <button className="arry-prev testimonial__arry-prev"><i className="fa-light fa-arrow-left-long" /></button>
-                                    <button className="arry-next testimonial__arry-next"><i className="fa-light fa-arrow-right-long" /></button>
+                                    <button className="arry-prev testimonial__arry-prev"><i className="fa-solid fa-arrow-left-long" /></button>
+                                    <button className="arry-next testimonial__arry-next"><i className="fa-solid fa-arrow-right-long" /></button>
                                 </div>
                             </div>
                         </div>

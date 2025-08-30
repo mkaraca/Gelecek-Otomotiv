@@ -7,7 +7,7 @@ export default function NewsDetails() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="News Grid" />
                 <NewsGrid />
                 <Brand />

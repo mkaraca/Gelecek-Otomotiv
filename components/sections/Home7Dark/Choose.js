@@ -199,8 +199,8 @@ function Choose() {
                                 </Swiper>
                             </div>
                             <div className="slider-arry">
-                                <button className="arry-prev testimonial__arry-prev text-white"><i className="fa-light fa-arrow-left-long" /></button>
-                                <button className="arry-next testimonial__arry-next text-white"><i className="fa-light fa-arrow-right-long" /></button>
+                                <button className="arry-prev testimonial__arry-prev text-white"><i className="fa-solid fa-arrow-left-long" /></button>
+                                <button className="arry-next testimonial__arry-next text-white"><i className="fa-solid fa-arrow-right-long" /></button>
                             </div>
                         </div>
                     </div>

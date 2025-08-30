@@ -14,7 +14,7 @@ function Video2()  {
                     <div className="video-nine__image imageRightToLeft gsap__parallax wow">
                         <img src="assets/images/video/video-nine-image.jpg" alt="image" />
                         <div className="btn-video video-pulse">
-                            <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-light fa-play"></i></a>
+                            <a onClick={() => setOpen(true)} className="video-popup"><i className="fa-sharp fa-solid fa-play"></i></a>
                         </div>
                     </div>
                 </div>

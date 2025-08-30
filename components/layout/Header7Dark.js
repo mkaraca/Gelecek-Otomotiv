@@ -17,8 +17,8 @@ const Header7Dark = ({ scroll }) => {
                 <div className="container">
                     <div className="header-top__wrp">
                         <ul className="header-top__links light">
-                            <li><i className="fa-light fa-location-dot"></i> <Link href="/">121 King Street, Melbourne</Link></li>
-                            <li><i className="fa-light fa-envelope-open-text"></i> <Link href="?">info.company@gmail.com</Link></li>
+                            <li><i className="fa-solid fa-location-dot"></i> <Link href="/">121 King Street, Melbourne</Link></li>
+                            <li><i className="fa-solid fa-envelope-open-text"></i> <Link href="?">info.company@gmail.com</Link></li>
                         </ul>
 
                         <div className="header-top__socials light">
@@ -92,7 +92,7 @@ const Header7Dark = ({ scroll }) => {
                         </Link>
                         <div className="menu-btns">
                             <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                                <i className="fa-light fa-magnifying-glass" />
+                                <i className="fa-solid fa-magnifying-glass" />
                             </button>
                             <button className="menubars" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
                                 <span></span>
@@ -177,7 +177,7 @@ const Header7Dark = ({ scroll }) => {
 
             <div className={`search-wrap light-area ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">

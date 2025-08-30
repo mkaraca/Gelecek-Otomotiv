@@ -40,13 +40,13 @@ function Pricing() {
                                             <h2>Free</h2>
                                             <span>30 Days Trial</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-xmark" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-xmark" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-xmark" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-xmark" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -61,13 +61,13 @@ function Pricing() {
                                             <h2 className="text-white">$42 <span className="text-white">/ Month</span></h2>
                                             <span className="text-white">No Credit Card Required</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-xmark" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-xmark" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-xmark" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-xmark" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -81,13 +81,13 @@ function Pricing() {
                                             <h2>$99 <span>/ Month</span></h2>
                                             <span>No Credit Card Required</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-check" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-check" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-check" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-check" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -105,13 +105,13 @@ function Pricing() {
                                             <h2>Free</h2>
                                             <span>30 Days Trial</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-xmark" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-xmark" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-xmark" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-xmark" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -126,13 +126,13 @@ function Pricing() {
                                             <h2 className="text-white">$499 <span className="text-white">/ Year</span></h2>
                                             <span className="text-white">No Credit Card Required</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-xmark" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-xmark" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-xmark" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-xmark" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -146,13 +146,13 @@ function Pricing() {
                                             <h2>$999 <span>/ Year</span></h2>
                                             <span>No Credit Card Required</span>
                                         </div>
-                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-light fa-arrow-right" /></Link>
+                                        <Link href="/contact" className="pricing-btn">Get Started <i className="fa-solid fa-arrow-right" /></Link>
                                         <ul>
-                                            <li><i className="fa-light fa-check" /> 24/7 Support at Any Time</li>
-                                            <li><i className="fa-light fa-check" /> Orientation for Business</li>
-                                            <li><i className="fa-light fa-check" /> Basic Security Systems</li>
-                                            <li><i className="fa-light fa-check" /> Smart Lighting Control</li>
-                                            <li><i className="fa-light fa-check" /> Power And Predictive Dialling</li>
+                                            <li><i className="fa-solid fa-check" /> 24/7 Support at Any Time</li>
+                                            <li><i className="fa-solid fa-check" /> Orientation for Business</li>
+                                            <li><i className="fa-solid fa-check" /> Basic Security Systems</li>
+                                            <li><i className="fa-solid fa-check" /> Smart Lighting Control</li>
+                                            <li><i className="fa-solid fa-check" /> Power And Predictive Dialling</li>
                                         </ul>
                                     </div>
                                 </div>

@@ -76,7 +76,7 @@ function Feature() {
                         <div className="footer__item-last feature-four__item">
                             <h4 className="title">Newsletter</h4>
                             <form className="mailUs mt-10" onSubmit={handleSubmit}>
-                                <span className='text-white'><i className="fa-light fa-envelope" aria-hidden="true" /></span>
+                                <span className='text-white'><i className="fa-solid fa-envelope" aria-hidden="true" /></span>
                                 <input
                                     type="email"
                                     id="newsletter-email"

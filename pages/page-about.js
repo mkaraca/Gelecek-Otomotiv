@@ -10,7 +10,7 @@ export default function AboutUS() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="About Us" />
                 <About />
                 <Projects />

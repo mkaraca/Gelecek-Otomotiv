@@ -49,7 +49,7 @@ function About() {
                                     White Gloves Design Program
                                 </li>
                             </ul>
-                            <Link href="/page-about" className="btn-arrow wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms"><i className="fa-light fa-arrow-up-right" /></Link>
+                            <Link href="/page-about" className="btn-arrow wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms"><i className="fa-solid fa-arrow-up-right" /></Link>
                         </div>
                         <div className="image mt-60">
                             <figure className="wow">

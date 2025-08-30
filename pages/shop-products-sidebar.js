@@ -6,7 +6,7 @@ export default function PageShopSidebar() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Shop Sidebar" />
                 <ShopSidebar />
             </Layout>

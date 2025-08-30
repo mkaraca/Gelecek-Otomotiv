@@ -59,9 +59,9 @@ function About() {
                                     <h5>Our Results <span className="line" /></h5>
                                     <div className="arry-wrp">
                                         <button className="about__arry-prev text-white"><i
-                                                className="fa-light fa-arrow-left-long" /></button>
+                                                className="fa-solid fa-arrow-left-long" /></button>
                                         <button className="about__arry-next text-white"><i
-                                                className="fa-light fa-arrow-right-long" /></button>
+                                                className="fa-solid fa-arrow-right-long" /></button>
                                     </div>
                                 </div>
                                 <div className="swiper about-five__slider">

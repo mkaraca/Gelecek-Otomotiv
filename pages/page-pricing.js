@@ -7,7 +7,7 @@ export default function PricingPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Pricing" />
                 <PricingInner />
                 <Brand />

@@ -75,8 +75,8 @@ function Testimonial() {
                         <SwiperSlide ><div className="testimonial-three__image"><img src="assets/images/testimonial/testimonial-three-image2.png" alt="Thumb" /></div></SwiperSlide>
                         <SwiperSlide ><div className="testimonial-three__image"><img src="assets/images/testimonial/testimonial-three-image3.png" alt="Thumb" /></div></SwiperSlide>
                     </Swiper>
-                    <button className="testimonial-three__arry-prev"><i className="fa-light fa-chevron-left"></i></button>
-                    <button className="testimonial-three__arry-next"><i className="fa-light fa-chevron-right"></i></button>
+                    <button className="testimonial-three__arry-prev"><i className="fa-solid fa-chevron-left"></i></button>
+                    <button className="testimonial-three__arry-next"><i className="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </section>

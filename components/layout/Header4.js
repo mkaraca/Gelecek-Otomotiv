@@ -17,9 +17,9 @@ const Header4 = ({ scroll }) => {
                 <div className="container">
                     <div className="header-top__wrp">
                         <ul className="header-top__links four-links">
-                            <li><i className="fa-light fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
-                            <li><i className="fa-light fa-envelope-open-text" /><Link href="/">info.company@gmail.com</Link></li>
-                            <li><i className="fa-light fa-clock" /><Link href="/">Mon - Frd : 8:00 -16:00</Link></li>
+                            <li><i className="fa-solid fa-location-dot" /><Link href="/">121 King Street, Melbourne</Link></li>
+                            <li><i className="fa-solid fa-envelope-open-text" /><Link href="/">info.company@gmail.com</Link></li>
+                            <li><i className="fa-solid fa-clock" /><Link href="/">Mon - Frd : 8:00 -16:00</Link></li>
                         </ul>
                         <div className="header-top__socials four-socials">
                             <Link href="/">
@@ -92,7 +92,7 @@ const Header4 = ({ scroll }) => {
                         </div>
                         <div className="menu-btns light">
                             <button className="search-trigger d-none d-lg-block" onClick={handleToggleSearch}>
-                                <i className="fa-light fa-magnifying-glass" />
+                                <i className="fa-solid fa-magnifying-glass" />
                             </button>
                             <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#menubar" onClick={handleToggleSidebar}>
@@ -101,7 +101,7 @@ const Header4 = ({ scroll }) => {
                                 <span />
                             </button>
                             <Link href="/contact" className="header-four__btn">
-                                Get in Touch <i className="fa-light fa-arrow-up-right" />
+                                Get in Touch <i className="fa-solid fa-arrow-up-right" />
                             </Link>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ const Header4 = ({ scroll }) => {
 
             <div className={`search-wrap ${searchToggle ? 'd-block' : ''}`} >
                 <div className="search-inner">
-                    <i className="fa-light fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
+                    <i className="fa-solid fa-xmark search-close" id="search-close" onClick={handleToggleSearch}/>
                     <div className="search-cell">
                         <form method="get">
                             <div className="search-field-holder">

@@ -6,7 +6,7 @@ export default function PortfolioDetailsPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Portfolio Details" />
                 <PortfolioDetails />
             </Layout>

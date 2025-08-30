@@ -46,7 +46,7 @@ function Feature() {
                                 <h4 className="title">Newsletter</h4>
                                 <form className="mailUs mt-10" onSubmit={(e) => e.preventDefault()}>
                                     <label htmlFor="newsletter-email" className="sr-only">Your Email</label>
-                                    <span className="text-white"><i className="fa-light fa-envelope" /></span>
+                                    <span className="text-white"><i className="fa-solid fa-envelope" /></span>
                                     <input 
                                         type="email" 
                                         id="newsletter-email" 

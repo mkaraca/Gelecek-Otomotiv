@@ -6,7 +6,7 @@ export default function ProjectDetailsPage() {
 
     return (
         <>
-            <Layout HeaderStyle="three">
+            <Layout>
                 <PageTitle pageName="Project Details" />
                 <ProjectDetails />
             </Layout>

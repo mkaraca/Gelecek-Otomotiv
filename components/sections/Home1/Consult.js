@@ -35,7 +35,7 @@ function Consult() {
                             <ul className="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 {services.map((service, index) => (
                                     <li key={index}>
-                                        <i className="fa-light fa-plus" /> {service}
+                                        <i className="fa-solid fa-plus" /> {service}
                                     </li>
                                 ))}
                             </ul>

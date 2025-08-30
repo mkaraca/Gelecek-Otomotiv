@@ -21,16 +21,16 @@ function About() {
                                 </div>
                                 <div className="list">
                                     <ul className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                        <li><i className="fa-light fa-check" />Retail Social Media Marketing</li>
-                                        <li><i className="fa-light fa-check" />Business Consulting and Support</li>
-                                        <li><i className="fa-light fa-check" />A Robust Brand Identity</li>
-                                        <li><i className="fa-light fa-check" />Strategic Analysis for Businesses</li>
+                                        <li><i className="fa-solid fa-check" />Retail Social Media Marketing</li>
+                                        <li><i className="fa-solid fa-check" />Business Consulting and Support</li>
+                                        <li><i className="fa-solid fa-check" />A Robust Brand Identity</li>
+                                        <li><i className="fa-solid fa-check" />Strategic Analysis for Businesses</li>
                                     </ul>
                                     <ul className="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                        <li><i className="fa-light fa-check" />Data Gathering and Analysis</li>
-                                        <li><i className="fa-light fa-check" />Retail Search Engine Optimization</li>
-                                        <li><i className="fa-light fa-check" />Managed Paid Advertising Campaigns</li>
-                                        <li><i className="fa-light fa-check" />Effective Retail Marketing Strategies</li>
+                                        <li><i className="fa-solid fa-check" />Data Gathering and Analysis</li>
+                                        <li><i className="fa-solid fa-check" />Retail Search Engine Optimization</li>
+                                        <li><i className="fa-solid fa-check" />Managed Paid Advertising Campaigns</li>
+                                        <li><i className="fa-solid fa-check" />Effective Retail Marketing Strategies</li>
                                     </ul>
                                 </div>
                                 <div className="shape">

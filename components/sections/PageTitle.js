@@ -12,7 +12,7 @@ const PageTitle = (props) => {
                         <h1 className="title">{props.pageName}</h1>
                         <ul>
                             <li><Link href="/">Home</Link></li>
-                            <li><i className="fa-light fa-angle-right"></i></li>
+                            <li><i className="fa-solid fa-angle-right"></i></li>
                             <li>{props.pageName}</li>
                         </ul>
                     </div>

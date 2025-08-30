@@ -8,7 +8,13 @@ export default function Home() {
         <>
             <Layout>
                 <Slider />
-                {/* <SliderShowroom /> */}
+
+                <section className="bg-white pb-50 pt-50">
+                    <div class="container">
+                        <SliderShowroom />
+                    </div>
+                </section>
+
                 {/* <About /> */}
                 {/* <Feature /> */}
                 {/* <Solutions /> */}

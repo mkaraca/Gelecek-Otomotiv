@@ -11,7 +11,7 @@ function Video() {
             <div className="video-three__wrp" data-speed="0.3" data-parallax="scroll" style={{ backgroundImage: `url(assets/images/bg/video-two-bg.jpg)`}}>
                 <div className="video__btn">
                     <div className="btn-video video-pulse">
-                        <a onClick={() => setOpen(true)} className="item-btn video-popup"><i className="fa-sharp fa-light fa-play" /></a>
+                        <a onClick={() => setOpen(true)} className="item-btn video-popup"><i className="fa-sharp fa-solid fa-play" /></a>
                     </div>
                 </div>
             </div>

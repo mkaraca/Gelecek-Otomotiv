@@ -40,7 +40,7 @@ function Features() {
                                     <h4><Link className="hover-link" href="/page-service-details">Punctual Service Delivery</Link></h4>
                                     <p>Punctual Service Delivery We specialize in serving industries like healthcare, finance customized solutions tailored to their unique needs.</p>
                                 </div>
-                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-light fa-arrow-right" /></Link>
+                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-solid fa-arrow-right" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -70,7 +70,7 @@ function Features() {
                                     <h4><Link className="hover-link" href="/page-service-details">Cutting-Edge Technology</Link></h4>
                                     <p>We focus on key sectors like healthcare, finance, and manufacturing, crafting bespoke solutions tailored to address their distinct challenges."</p>
                                 </div>
-                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-light fa-arrow-right" /></Link>
+                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-solid fa-arrow-right" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -101,7 +101,7 @@ function Features() {
                                     </h4>
                                     <p>We cater to industries like healthcare, finance, and manufacturing, crafting bespoke solutions uniquely tailored to address their distinct challenges.</p>
                                 </div>
-                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-light fa-arrow-right" /></Link>
+                                <Link href="/page-service-details" className="readMore-btn">Read More <i className="fa-solid fa-arrow-right" /></Link>
                             </div>
                         </div>
                     </div>

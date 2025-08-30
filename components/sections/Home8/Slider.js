@@ -31,9 +31,9 @@ function Slider() {
                         long-term success.</p>
                     <div className="btns mt-40">
                         <Link data-depth="0.05" href="/page-about" className="btn-two-light wow fadeInUp"
-                            data-wow-delay="400ms" data-wow-duration="1500ms">About Us<i className="fa-light fa-arrow-right"></i></Link>
+                            data-wow-delay="400ms" data-wow-duration="1500ms">About Us<i className="fa-solid fa-arrow-right"></i></Link>
                         <Link data-depth="0.05" href="/page-services" className="btn-one-light wow fadeInUp"
-                            data-wow-delay="500ms" data-wow-duration="1500ms">Our Services<i className="fa-light fa-arrow-right"></i></Link>
+                            data-wow-delay="500ms" data-wow-duration="1500ms">Our Services<i className="fa-solid fa-arrow-right"></i></Link>
                     </div>
                 </div>
             </div>

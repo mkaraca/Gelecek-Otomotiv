@@ -13,7 +13,7 @@ function Portfolio() {
                         <div className="col-md-4">
                             <div className="portfolio-eight__item item-one">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageUpToDown">
                                     <img src="assets/images/protfolio/portfolio-eight-image2.jpg" alt="image" />
                                 </div>
@@ -28,7 +28,7 @@ function Portfolio() {
                         <div className="col-md-8">
                             <div className="portfolio-eight__item item-two">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageRightToLeft">
                                     <img src="assets/images/protfolio/portfolio-eight-image1.jpg" alt="image" />
                                 </div>
@@ -44,7 +44,7 @@ function Portfolio() {
                         <div className="col-md-8">
                             <div className="portfolio-eight__item item-three">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageLeftToRight">
                                     <img src="assets/images/protfolio/portfolio-eight-image4.jpg" alt="image" />
                                 </div>
@@ -59,7 +59,7 @@ function Portfolio() {
                         <div className="col-md-4">
                             <div className="portfolio-eight__item item-four">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageUpToDown">
                                     <img src="assets/images/protfolio/portfolio-eight-image3.jpg" alt="image" />
                                 </div>
@@ -74,7 +74,7 @@ function Portfolio() {
                         <div className="col-md-4">
                             <div className="portfolio-eight__item item-five">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageUpToDown">
                                     <img src="assets/images/protfolio/portfolio-eight-image5.jpg" alt="image" />
                                 </div>
@@ -88,7 +88,7 @@ function Portfolio() {
                         <div className="col-md-8">
                             <div className="portfolio-eight__item item-six">
                                 <Link href="/page-portfolio-details" className="arry-btn"><i
-                                        className="fa-light fa-arrow-right-long" /></Link>
+                                        className="fa-solid fa-arrow-right-long" /></Link>
                                 <div className="image wow imageDownToUP">
                                     <img src="assets/images/protfolio/portfolio-eight-image6.jpg" alt="image" />
                                 </div>

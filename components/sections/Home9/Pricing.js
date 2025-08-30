@@ -27,11 +27,11 @@ function Pricing() {
                                     </div>
                                 </div>
                                 <ul>
-                                    <li><i className="fa-light fa-check"></i>Web & Mobile</li>
-                                    <li><i className="fa-light fa-check"></i>Free Custom Domain</li>
-                                    <li><i className="fa-light fa-check"></i>Best Hosting Ever</li>
+                                    <li><i className="fa-solid fa-check"></i>Web & Mobile</li>
+                                    <li><i className="fa-solid fa-check"></i>Free Custom Domain</li>
+                                    <li><i className="fa-solid fa-check"></i>Best Hosting Ever</li>
                                 </ul>
-                                <Link href="/" className="btn-more">Purchase Now <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/" className="btn-more">Purchase Now <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -50,12 +50,12 @@ function Pricing() {
                                     </div>
                                 </div>
                                 <ul>
-                                    <li><i className="fa-light fa-check"></i>Web & Mobile</li>
-                                    <li><i className="fa-light fa-check"></i>Free Custom Domain</li>
-                                    <li><i className="fa-light fa-check"></i>Best Hosting Ever</li>
-                                    <li><i className="fa-light fa-check"></i>Outstanding Support</li>
+                                    <li><i className="fa-solid fa-check"></i>Web & Mobile</li>
+                                    <li><i className="fa-solid fa-check"></i>Free Custom Domain</li>
+                                    <li><i className="fa-solid fa-check"></i>Best Hosting Ever</li>
+                                    <li><i className="fa-solid fa-check"></i>Outstanding Support</li>
                                 </ul>
-                                <Link href="/" className="btn-more">Purchase Now <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/" className="btn-more">Purchase Now <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-4 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -71,13 +71,13 @@ function Pricing() {
                                     </div>
                                 </div>
                                 <ul>
-                                    <li><i className="fa-light fa-check"></i>Web & Mobile</li>
-                                    <li><i className="fa-light fa-check"></i>Free Custom Domain</li>
-                                    <li><i className="fa-light fa-check"></i>Best Hosting Ever</li>
-                                    <li><i className="fa-light fa-check"></i>Outstanding Support</li>
-                                    <li><i className="fa-light fa-check"></i>Web Design</li>
+                                    <li><i className="fa-solid fa-check"></i>Web & Mobile</li>
+                                    <li><i className="fa-solid fa-check"></i>Free Custom Domain</li>
+                                    <li><i className="fa-solid fa-check"></i>Best Hosting Ever</li>
+                                    <li><i className="fa-solid fa-check"></i>Outstanding Support</li>
+                                    <li><i className="fa-solid fa-check"></i>Web Design</li>
                                 </ul>
-                                <Link href="/" className="btn-more">Purchase Now <i className="fa-light fa-arrow-right"></i></Link>
+                                <Link href="/" className="btn-more">Purchase Now <i className="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

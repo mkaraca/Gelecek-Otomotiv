@@ -61,7 +61,7 @@ function About() {
                                 <ul className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     {listOne.map((item, index) => (
                                         <li key={`list1-${index}`}>
-                                            <i className="fa-light fa-check" /> {item}
+                                            <i className="fa-solid fa-check" /> {item}
                                         </li>
                                     ))}
                                 </ul>
@@ -70,7 +70,7 @@ function About() {
                                 <ul className="wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     {listTwo.map((item, index) => (
                                         <li key={`list2-${index}`}>
-                                            <i className="fa-light fa-check" /> {item}
+                                            <i className="fa-solid fa-check" /> {item}
                                         </li>
                                     ))}
                                 </ul>
