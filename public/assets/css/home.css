@@ -133,7 +133,7 @@
 
 .slider-home-pagination.pagination-home-showroom {
   justify-content: left;
-  width: auto!important;
+  width: auto !important;
 }
 
 .slider-home-pagination .swiper-pagination-bullet {
@@ -149,6 +149,12 @@
   height: 22px;
   background: var(--black);
   border: 3px solid var(--white);
+}
+
+.section-title {
+  font-family: var(--font-title);
+  font-size: 32px;
+  color: var(--gelecek-blue);
 }
 
 .vehicle-block {
@@ -179,7 +185,6 @@
   background-color: var(--gelecek-blue);
 }
 
-
 .vehicle-block .vehicle-item .vehicle-link h4 {
   position: absolute;
   bottom: 0;
@@ -188,4 +193,91 @@
   text-align: center;
   color: #fff;
   padding: 10px;
+}
+
+.help-section {
+  background-color: var(--black-5);
+}
+
+.help-section .help-section-wr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.help-section .help-section-items {
+  display: flex;
+  gap: 20px;
+}
+
+.help-section .help-section-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  width: 190px;
+  height: 86px;
+  padding: 15px;
+  /* color: var(--gelecek-blue); */
+  color: var(--mercedes-blue-dark);
+  background-color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.help-section .help-section-item:hover {
+  /* color: var(--mercedes-blue); */
+  color: var(--gelecek-blue);
+  border-color: var(--mercedes-blue-dark);
+}
+
+.help-section .help-section-item svg {
+  flex-shrink: 0;
+  fill: currentColor;
+  color: var(--mercedes-blue);
+}
+
+.help-section .help-section-item h5 {
+  font-size: 24px;
+  line-height: 1.5rem;
+  color: inherit;
+}
+
+.help-section .help-section-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 86px;
+}
+
+.help-section .help-section-search-input {
+  width: 100%;
+  height: 86px;
+  padding: 5px 60px 5px 20px;
+  font-size: 20px;
+  border: none;
+  color: var(--mercedes-blue-dark);
+  background-color: var(--white);
+  outline: none;
+  border: 2px solid var(--white);
+}
+
+.help-section .help-section-search-input::placeholder {
+  font-size: 20px;
+  color: var(--mercedes-blue-dark);
+}
+.help-section .help-section-search-input:focus {
+  border-color: var(--mercedes-blue-dark);
+}
+.help-section .help-section-search-submit {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  color: var(--mercedes-blue);
+  font-size: 32px;
 }

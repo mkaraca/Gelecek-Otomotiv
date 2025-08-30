@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout";
 import SliderMain from "../components/sections/Home/SliderMain";
 import SliderShowroom from "../components/sections/Home/SliderShowroom";
 import Vehicle from "../components/sections/Home/Vehicle";
+import HelpSection from "../components/sections/Home/HelpSection";
 
 export default function Home() {
     return (
@@ -19,7 +20,8 @@ export default function Home() {
                     </div>
                 </section>
 
-                {/* <About /> */}
+                <HelpSection />
+                
                 {/* <Feature /> */}
                 {/* <Solutions /> */}
                 {/* <Pricing /> */}
