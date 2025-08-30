@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         {!loading ? (
             <Component {...pageProps} />
         ) : (
-            <div id="preloader">
+            <div id="preloader" style={{ backgroundColor:'#000'}}>
                 <img src="/Mercedes-Benz-Loader.gif" alt="logo" />
                 {/* <div className="animation-preloader">
                     <div className="spinner"></div>

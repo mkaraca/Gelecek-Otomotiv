@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import NavLinks from './NavLinks';
 import NavLinksSecondary from './NavLinksSecondary';
@@ -6,6 +7,9 @@ import MobileMenu from './MobileMenu';
 import SocialLinks from '../elements/SocialLinks';
 
 const Header = ({ scroll }) => {
+    const router = useRouter();
+    const isHomePage = router.pathname === '/';
+
     const [searchToggle, setSearchToggle] = useState(false);
     const [sidebarToggle, setSidebarToggle] = useState(false);
 
@@ -37,7 +41,7 @@ const Header = ({ scroll }) => {
                 </div>
             </div>
 
-            <header className={`header-area header-blur ${scroll ? "menu-fixed" : ""}`}>
+            <header className={`header-area${isHomePage ? " header-blur" : " header-three-area"}${scroll ? " menu-fixed" : ""}`}>
                 <div className="container">
                     <div className="header__main">
                         <div className="header-block main-menu main-menu-light" style={{ justifyContent:'flex-start'}}>
@@ -47,10 +51,7 @@ const Header = ({ scroll }) => {
                         </div>
 
                         <div className="logo-block">
-                            <Link href="/" className="logo logo-main">
-                                <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" />
-                            </Link>
-                            <Link href="/" className="logo logo-light">
+                            <Link href="/" className="logo">
                                 <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" />
                             </Link>
                         </div>

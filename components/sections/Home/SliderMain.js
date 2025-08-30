@@ -19,7 +19,7 @@ const swiperOptions = {
     }
 };
 
-function Slider() {
+function SliderMain() {
     const videoRef = useRef(null);
     useEffect(() => {
         if (videoRef.current) {
@@ -70,4 +70,4 @@ function Slider() {
         </>
     )
 }
-export default Slider;
+export default SliderMain;
