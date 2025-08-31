@@ -8,10 +8,10 @@ import "swiper/css/pagination";
 const swiperOptions = {
     modules: [Autoplay, Pagination],
     slidesPerView: 1,
-    // autoplay: {
-    //     delay: 8500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 8500,
+        disableOnInteraction: false,
+    },
     loop: true,
     pagination: {
         el: '.pagination-home-showroom',

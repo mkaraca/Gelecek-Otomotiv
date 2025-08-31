@@ -62,6 +62,22 @@ function SliderMain() {
                             </div>
                         </div>
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="container position-absolute start-0 end-0">
+                            <div className="slider-home-main__content">
+                                <h2 className="title text-center text-black wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    Tamamen Elektrikli, Tamamen Mercedes.</h2>
+                                <div className="btns justify-content-center mt-20">
+                                    <Link data-depth="0.05" href="/page-about" className="btn-two wow fadeInUp"
+                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="deg45 fa-solid fa-arrow-right"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scene-loop">
+                            <div class="loop-bg"></div>
+                            <img class="loop-car" src="assets/images/slider/slider-loop-car.png" alt="Sabit araba" />
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
                 <div className="slider-home-pagination pagination-home-main"></div>
             </section>

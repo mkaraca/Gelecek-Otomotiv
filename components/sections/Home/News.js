@@ -10,7 +10,7 @@ function News() {
                         <h2 className="section-title">Geleceği keşfedin.</h2>
                     </div>
                     <div className="news__items">
-                        <div className="news__item news__item-1 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div className="news__item news__item-1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div className="news__image">
                                 <img src="assets/images/news/news-1.png" alt="image" />
                                 <img src="assets/images/news/news-1.png" alt="image" />
@@ -22,7 +22,8 @@ function News() {
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                         </div>
-                        <div className="news__item news__item-2 wow fadeInBottom" data-wow-delay="00ms" data-wow-duration="1500ms">
+
+                        <div className="news__item news__item-2 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
                             <div className="news__image">
                                 <img src="assets/images/news/news-2.png" alt="image" />
                                 <img src="assets/images/news/news-2.png" alt="image" />
@@ -34,7 +35,8 @@ function News() {
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">EQA’yı Keşfedin<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                         </div>
-                        <div className="news__item news__item-3 wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+
+                        <div className="news__item news__item-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div className="news__image">
                                 <img src="assets/images/news/news-3.png" alt="image" />
                                 <img src="assets/images/news/news-3.png" alt="image" />
