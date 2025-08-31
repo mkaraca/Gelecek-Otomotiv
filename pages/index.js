@@ -7,6 +7,7 @@ import HelpSection from "../components/sections/Home/HelpSection";
 import HelpSection2 from "../components/sections/Home/HelpSection2";
 import News from "../components/sections/Home/News";
 import Funfact from "../components/sections/Home/Funfact";
+import Persona from "../components/sections/Home/Persona";
 
 export default function Home() {
     return (
@@ -27,6 +28,7 @@ export default function Home() {
                 {/* <HelpSection2 /> */}
                 <News />
                 <Funfact />
+                <Persona />
 
                 {/* <Feature /> */}
                 {/* <Solutions /> */}

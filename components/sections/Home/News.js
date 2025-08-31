@@ -6,7 +6,7 @@ function News() {
         <>
             <section className="news-section pt-50 pb-50">
                 <div className="container">
-                    <div className="section-header mb-10">
+                    <div className="section-header">
                         <h2 className="section-title">Geleceği keşfedin.</h2>
                     </div>
                     <div className="news__items">
@@ -17,7 +17,7 @@ function News() {
                             </div>
                             <div className="news__content pt-10">
                                 <Link href="/news-details"><h3 className="">Üretici olarak Mercedes-Benz’inizi en iyi biz biliriz</h3></Link>
-                                <p className="lh-sm mt-10">En önemli güvenlik sistemlerimizden biri bakımdır. Düzenli bakımlar Mercedes'inizin güvenliğini muhafaza eder ve değerini korumasını sağlar.</p>
+                                <p>Düzenli bakımlar Mercedes'inizin güvenliğini muhafaza eder, mobil kalmasını ve değerini korumasını sağlar.</p>
                             </div>
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
@@ -29,7 +29,7 @@ function News() {
                             </div>
                             <div className="news__content pt-10">
                                 <Link href="/news-details"><h3 className="">100 km'ye 5 saniyede çıkabildiğini biliyor muydunuz?</h3></Link>
-                                <p className="lh-sm mt-10">Özgün ve güçlü tasarım diline sahip tamamen elektrikli EQA. EQA, keskin hatlarını, mükemmel oranlarını ve güçlü tasarımını coupé izlenimi veren yan çizgilerle bir araya getirir. EQA çarpıcı özellikleriyle sizi tamamen elektrikli sürüşe geçmeye davet ediyor.</p>
+                                <p>Özgün ve güçlü tasarım diline sahip tamamen elektrikli EQA. EQA, keskin hatlarını, mükemmel oranlarını ve güçlü tasarımını coupé izlenimi veren yan çizgilerle bir araya getirir. EQA çarpıcı özellikleriyle sizi tamamen elektrikli sürüşe geçmeye davet ediyor.</p>
                             </div>
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">EQA’yı Keşfedin<i className="deg45 fa-solid fa-arrow-right"></i></Link>
@@ -41,7 +41,7 @@ function News() {
                             </div>
                             <div className="news__content pt-10">
                                 <Link href="/news-details"><h3 className="">Yıldızların ışıltısını Gelecek Diyarbakır'da keşfedin</h3></Link>
-                                <p className="lh-sm mt-10">Her ihtiyacınıza özel çözümler sunan uzman ekibimizle, sizi Gelecek Diyarbakır showroomumuza bekliyoruz!</p>
+                                <p>Her ihtiyacınıza özel çözümler sunan uzman ekibimizle, sizi Gelecek Diyarbakır showroomumuza bekliyoruz!</p>
                             </div>
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
                                 data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
