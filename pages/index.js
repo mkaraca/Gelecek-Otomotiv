@@ -4,10 +4,11 @@ import SliderMain from "../components/sections/Home/SliderMain";
 import SliderShowroom from "../components/sections/Home/SliderShowroom";
 import Vehicle from "../components/sections/Home/Vehicle";
 import HelpSection from "../components/sections/Home/HelpSection";
-import HelpSection2 from "../components/sections/Home/HelpSection2";
 import News from "../components/sections/Home/News";
 import Funfact from "../components/sections/Home/Funfact";
 import Persona from "../components/sections/Home/Persona";
+import Choose from "../components/sections/Home/Choose";
+import Portfolio from "../components/sections/Home/Portfolio";
 
 export default function Home() {
     return (
@@ -25,23 +26,12 @@ export default function Home() {
                 </section>
 
                 <HelpSection />
-                {/* <HelpSection2 /> */}
                 <News />
                 <Funfact />
                 <Persona />
 
-                {/* <Feature /> */}
-                {/* <Solutions /> */}
-                {/* <Pricing /> */}
-                {/* <Faqs /> */}
-                {/* <Team /> */}
-                {/* <Video /> */}
-                {/* <Testimonial /> */}
-                {/* <About2 /> */}
-                {/* <Video2 /> */}
-                {/* <Marquee /> */}
-                {/* <News /> */}
-                {/* <Contact /> */}
+                {/* <Choose /> */}
+                {/* <Portfolio /> */}
             </Layout>
         </>
     );

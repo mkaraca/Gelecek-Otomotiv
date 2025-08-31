@@ -10,9 +10,9 @@ function BackToTop() {
     });
 
     const onScroll = () => {
-        if (window.scrollY > 100 && !hasScrolled) {
+        if (window.scrollY > 1000 && !hasScrolled) {
             setHasScrolled(true);
-        } else if (window.scrollY < 100 && hasScrolled) {
+        } else if (window.scrollY < 1000 && hasScrolled) {
             setHasScrolled(false);
         }
     };

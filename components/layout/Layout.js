@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BackToTop from '../elements/BackToTop';
+import SideMenu from '../elements/SideMenu';
 import Footer from './Footer';
 import Footer2 from './Footer2';
 import Footer3 from './Footer3';
@@ -137,7 +138,7 @@ const Layout = ({ children, HeaderStyle, FooterStyle, styleMode}) => {
                 {FooterStyle === "sevendark" && <Footer7Dark />}
                 {FooterStyle === "eightdark" && <Footer8Dark />}
             </div>
-            {/* <BackToTop /> */}
+            <SideMenu />
             <BackToTop />
         </>
     );

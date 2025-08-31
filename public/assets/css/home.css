@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 15px;
+  cursor: default;
 }
 
 .section-header .section-title {
@@ -211,19 +212,47 @@ a.btns {
   align-items: center;
 }
 
-.vehicle-block .vehicle-item .vehicle-link {
+.vehicle-block .vehicle-link {
+  position: relative;
+  display: flex;
+  align-items: center;
   width: 220px;
   height: 220px;
   background-color: var(--gelecek-blue-light);
   text-align: center;
   text-decoration: none;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  z-index: 1;
 }
 
-.vehicle-block .vehicle-item .vehicle-link:hover {
-  background-color: var(--gelecek-blue);
+.vehicle-block .vehicle-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--black);
+  z-index: -1;
+  transition: var(--transition);
 }
 
-.vehicle-block .vehicle-item .vehicle-link h4 {
+.vehicle-block .vehicle-link.active::after {
+  width: 100%;
+  left: 0;
+  right: unset;
+}
+
+.vehicle-block .vehicle-link img {
+  transition:var(--transition);
+}
+
+.vehicle-block .vehicle-link.active img {
+  transform: translateY(-5px);
+}
+
+.vehicle-block .vehicle-link h4 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -232,6 +261,7 @@ a.btns {
   color: #fff;
   padding: 10px;
 }
+
 
 .help-section {
   background-color: var(--black-5);
@@ -248,7 +278,7 @@ a.btns {
   gap: 20px;
 }
 
-.help-section .help-item {
+/* .help-section .help-item {
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -256,23 +286,64 @@ a.btns {
   width: 190px;
   height: 86px;
   padding: 15px;
-  /* color: var(--gelecek-blue); */
   color: var(--mercedes-blue-dark);
   background-color: var(--white);
   border: 2px solid var(--white);
+  transition: var(--transition);
+  z-index: 1;
+} */
+
+/* .help-section .help-item:hover {
+  border-color: var(--black-25);
+} */
+
+.help-section .help-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  width: 190px;
+  height: 86px;
+  padding: 15px;
+  color: var(--mercedes-blue-dark);
+  background-color: var(--white);
+  border: 2px solid var(--black-10);
+  text-decoration: none;
+  transition: var(--transition);
+  z-index: 1;
 }
 
-.help-section .help-item:hover {
-  border-color: var(--black-25);
+.help-section .help-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  /* background-color: var(--gelecek-blue-light); */
+  background-color: var(--black);
+  z-index: -1;
+  transition: var(--transition);
 }
+
+.help-section .help-item.active::after {
+  width: 100%;
+  left: 0;
+  right: unset;
+}
+
 
 .help-section .svg-icon {
   flex-shrink: 0;
-  color: var(--mercedes-blue);
+  /* color: var(--mercedes-blue); */
+  color: var(--gelecek-blue-light);
+  transition: var(--transition);
 }
 
-.help-section .help-item:hover svg {
-  color: var(--mercedes-blue-dark);
+.help-section .help-item.active svg {
+  color: var(--white);
+  transform: rotateY(360deg);
 }
 
 .help-section .help-item h5 {
@@ -281,8 +352,8 @@ a.btns {
   color: inherit;
 }
 
-.help-section .help-item:hover h5 {
-  color: var(--gelecek-blue-x-dark);
+.help-section .help-item.active h5 {
+  color: var(--white);
 }
 
 .help-section .help-section-search {
@@ -302,7 +373,7 @@ a.btns {
   color: var(--mercedes-blue-dark);
   background-color: var(--white);
   outline: none;
-  border: 2px solid var(--white);
+  border: 2px solid var(--black-10);
 }
 
 .help-section .help-section-search-input::placeholder {
@@ -323,12 +394,13 @@ a.btns {
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  color: var(--mercedes-blue);
+  /* color: var(--mercedes-blue); */
+  color: var(--gelecek-blue-light);
   font-size: 32px;
 }
 
 .news-section {
-  overflow: hidden;
+  cursor: default;
 }
 
 .news-section .news__items {
@@ -431,6 +503,7 @@ a.btns {
 
 .funfact-section {
   background-color: var(--black-5);
+  cursor: default;
 }
 
 .funfact-section .funfact-section-wr {
@@ -452,6 +525,11 @@ a.btns {
   padding: 20px 20px;
   color: var(--white);
   background-color: var(--gelecek-blue-light);
+  transition: var(--transition);
+}
+
+.funfact-section .funfact__item:hover {
+  background-color: var(--gelecek-blue);
 }
 
 .funfact-section .funfact__item h3 {
@@ -467,8 +545,8 @@ a.btns {
 
 
 .persona-section {
-  overflow: hidden;
   background-color: var(--white);
+  cursor: default;
 }
 
 .persona-section .persona__item {
