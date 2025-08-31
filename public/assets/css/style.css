@@ -4328,64 +4328,6 @@
   animation: iconBounceIn 1s forwards;
 }
 
-.funfact-area {
-  overflow: hidden;
-  background-color: var(--black);
-}
-
-.funfact__item ul {
-  margin-bottom: 65px;
-}
-
-@media (max-width: 767px) {
-  .funfact__item ul {
-    margin-bottom: 30px;
-  }
-}
-
-.funfact__item ul li {
-  font-size: 18px;
-  color: var(--paragraph-light);
-  font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 8px;
-}
-
-.funfact__item ul li i {
-  font-size: 14px;
-}
-
-.funfact__item ul li:not(:last-child) {
-  margin-bottom: 5px;
-}
-
-.funfact__item h2 {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--white);
-  font-size: 136px;
-  line-height: 136px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 25px;
-}
-
-.funfact__item h2 span {
-  color: inherit;
-}
-
-@media (max-width: 767px) {
-  .funfact__item h2 {
-    font-size: 80px;
-    line-height: 80px;
-  }
-}
-
 .funfact-eight-area {
   overflow: hidden;
   position: relative;

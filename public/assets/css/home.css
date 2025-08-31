@@ -1,15 +1,28 @@
 .section-header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
-.section-title {
+.section-header .section-title {
+  margin-bottom: 5px;
   font-family: var(--font-title);
   font-size: 38px;
+  line-height: 1em;
   color: var(--gelecek-blue);
 }
 
-.btns, .btns a {
+.section-header .section-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: var(--gelecek-blue);
+}
+
+.btns,
+.btns a {
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -212,12 +225,12 @@
   gap: 10px;
 }
 
-.help-section .help-section-items {
+.help-section .help-items {
   display: flex;
   gap: 20px;
 }
 
-.help-section .help-section-item {
+.help-section .help-item {
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -231,7 +244,7 @@
   border: 2px solid var(--white);
 }
 
-.help-section .help-section-item:hover {
+.help-section .help-item:hover {
   border-color: var(--black-25);
 }
 
@@ -240,17 +253,17 @@
   color: var(--mercedes-blue);
 }
 
-.help-section .help-section-item:hover svg {
+.help-section .help-item:hover svg {
   color: var(--mercedes-blue-dark);
 }
 
-.help-section .help-section-item h5 {
+.help-section .help-item h5 {
   font-size: 24px;
   line-height: 1.5rem;
   color: inherit;
 }
 
-.help-section .help-section-item:hover h5 {
+.help-section .help-item:hover h5 {
   color: var(--gelecek-blue-x-dark);
 }
 
@@ -300,46 +313,46 @@
   overflow: hidden;
 }
 
-.news__items {
+.news-section .news__items {
   display: flex;
   align-items: flex-end;
   gap: 20px;
 }
 
-.news__item {
+.news-section .news__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 460px;
 }
 
-.news__item-1,
-.news__item-3 {
+.news-section .news__item-1,
+.news-section .news__item-3 {
   padding: 15px;
   background-color: var(--black-5);
 }
 
-.news__item-2 {
+.news-section .news__item-2 {
   padding: 15px;
   /* background-color: var(--black-5); */
 }
 
-.news__item .news__image {
+.news-section .news__item .news__image {
   position: relative;
   overflow: hidden;
 }
 
-.news__item-2 .news__image {
+.news-section .news__item-2 .news__image {
   border-radius: 300px;
 }
 
-.news__item .news__image img {
+.news-section .news__item .news__image img {
   width: 100%;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.news__item .news__image img:first-child {
+.news-section .news__item .news__image img:first-child {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -353,7 +366,7 @@
   filter: blur(10px);
 }
 
-.news__item .news__content {
+.news-section .news__item .news__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -362,16 +375,16 @@
   padding-inline: 30px;
 }
 
-.news__item-2 .news__content {
+.news-section .news__item-2 .news__content {
   padding-inline: 50px;
 }
 
-.news__item .news__content h3 {
+.news-section .news__item .news__content h3 {
   line-height: 32px;
   margin-top: 10px;
 }
 
-.news__item:hover .news__image img:first-child {
+.news-section .news__item:hover .news__image img:first-child {
   -webkit-transform: translateX(0) scaleX(1);
   transform: translateX(0) scaleX(1);
   opacity: 1;
@@ -379,7 +392,7 @@
   filter: blur(0);
 }
 
-.news__item:hover .news__image img:last-child {
+.news-section .news__item:hover .news__image img:last-child {
   -webkit-transform: translateX(-50%) scaleX(2);
   transform: translateX(-50%) scaleX(2);
   opacity: 0;
@@ -387,6 +400,46 @@
   filter: blur(10px);
 }
 
-.news__item-2 .btns {
+.news-section .news__item-2 .btns {
   background-color: var(--gelecek-gold);
+}
+
+.funfact-section {
+  background-color: var(--black-5);
+}
+
+.funfact-section .funfact-section-wr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.funfact-section .funfact-items {
+  display: flex;
+  gap: 20px;
+}
+
+.funfact-section .funfact__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 460px; */
+  width: 100%;
+  padding: 20px 20px;
+  color: var(--white);
+  background-color: var(--gelecek-blue-light);
+}
+
+.funfact-section .funfact__item h3 {
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke-color: var(--white); */
+  color: var(--white);
+  font-size: 72px;
+  line-height: 1em;
+}
+
+.funfact-section .funfact__item h5 {
+  color: var(--white);
+  font-size: 24px;
 }

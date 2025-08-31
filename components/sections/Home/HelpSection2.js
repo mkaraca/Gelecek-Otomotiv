@@ -13,7 +13,7 @@ function Services() {
           <div className="help-section-wr section-header text-center mb-50">
             <h2 className="wow splt-txt" data-splitting>Size nasıl yardımcı olabiliriz?</h2>
           </div>
-          <div className="help-section-items row g-4">
+          <div className="help-items row g-4">
             <div className="col-md-6 col-xl-4 col-xxl-3 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
               <Link href="/page-service-details" className={`bg-white service-three__item ${activeIndex === 1 ? 'active' : ''}`} onMouseEnter={() => setActiveIndex(1)}>
                 <div className="icon">

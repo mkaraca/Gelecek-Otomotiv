@@ -1,42 +1,36 @@
-import React from 'react';
+import React from "react";
 import CounterUp from '../../elements/CounterUp';
-
 
 function Funfact() {
     return (
         <>
-
-        <section className="funfact-eight-area pb-130">
-            <div className="container">
-                <div className="funfact-eight__wrp">
-                    <div className="row g-4">
-                        <div className="col-lg-6">
-                            <div className="funfact-eight__item" style={{ backgroundImage: `url(assets/images/funfact/funfact-eight-image1.jpg)`}}>
-                                <div className="inner-box">
-                                    <h2 className="cout-text"><span className="count"><CounterUp end={87} /></span>%</h2>
-                                    <h3 className="title">Number Of Times Won</h3>
-                                    <p className="text">We always strive to win for our customers even in the most difficult
-                                        cases</p>
-                                </div>
-                            </div>
+            <section className="funfact-section pt-50 pb-50">
+                <div className="container">
+                    <div className="section-header mb-20">
+                        <h2 className="section-title">Biz kimiz?</h2>
+                        <p className="section-desc">‘Mükemmel Müşteri Deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
+                    </div>
+                    <div className="funfact-items">
+                        <div className="funfact__item">
+                            <h3><span className="count"><CounterUp end={25} /></span>+</h3>
+                            <h5 className="color-light wow splt-txt" data-splitting>Yıllık Tecrübe</h5>
                         </div>
-
-                        <div className="col-lg-6">
-                            <div className="funfact-eight__item" style={{ backgroundImage: `url(assets/images/funfact/funfact-eight-image2.jpg)`}}>
-                                <div className="inner-box">
-                                    <h2 className="cout-text"><span className="count"><CounterUp end={90} /></span>%</h2>
-                                    <h3 className="title">Happy Customer</h3>
-                                    <p className="text">We always strive to win for our customers even in the most difficult
-                                        cases</p>
-                                </div>
-                            </div>
+                        <div className="funfact__item">
+                            <h3><span className="count"><CounterUp end={50} /> bin+</span></h3>
+                            <h5 className="color-light wow splt-txt" data-splitting>Metrekare Alan</h5>
+                        </div>
+                        <div className="funfact__item">
+                            <h3><span className="count"><CounterUp end={200} /></span>+</h3>
+                            <h5 className="color-light wow splt-txt" data-splitting>Uzman Personel</h5>
+                        </div>
+                        <div className="funfact__item">
+                            <h3><span className="count"><CounterUp end={100} /></span>%</h3>
+                            <h5 className="color-light wow splt-txt" data-splitting>Müşteri Memnuniyeti</h5>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
+            </section>
         </>
     )
 }
-export default Funfact;
+export default Funfact

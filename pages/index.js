@@ -4,8 +4,9 @@ import SliderMain from "../components/sections/Home/SliderMain";
 import SliderShowroom from "../components/sections/Home/SliderShowroom";
 import Vehicle from "../components/sections/Home/Vehicle";
 import HelpSection from "../components/sections/Home/HelpSection";
-import Services from "../components/sections/Home/Services";
+import HelpSection2 from "../components/sections/Home/HelpSection2";
 import News from "../components/sections/Home/News";
+import Funfact from "../components/sections/Home/Funfact";
 
 export default function Home() {
     return (
@@ -23,8 +24,9 @@ export default function Home() {
                 </section>
 
                 <HelpSection />
-                {/* <Services /> */}
+                {/* <HelpSection2 /> */}
                 <News />
+                <Funfact />
 
                 {/* <Feature /> */}
                 {/* <Solutions /> */}
