@@ -40,11 +40,11 @@ function SliderMain() {
                         </video>
                         <div className="container">
                             <div className="slider-home-main__content">
-                                <h2 className="title wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <h2 className="title wow text-center fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Tamamen Elektrikli, Tamamen Mercedes.</h2>
-                                <div className="btns mt-20">
-                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light px-5 wow fadeInUp"
-                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="fa-solid fa-arrow-right"></i></Link>
+                                <div className="btns justify-content-center mt-20">
+                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light wow fadeInUp"
+                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -57,9 +57,9 @@ function SliderMain() {
                             <div className="slider-home-main__content">
                                 <h2 className="title text-center wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Tamamen Elektrikli, Tamamen Mercedes.</h2>
-                                <div className="btns d-flex justify-content-center mt-20">
-                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light px-5 wow fadeInUp"
-                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="fa-solid fa-arrow-right"></i></Link>
+                                <div className="btns justify-content-center mt-20">
+                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light wow fadeInUp"
+                                        data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>

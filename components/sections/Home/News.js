@@ -4,61 +4,51 @@ import Link from 'next/link';
 function News() {
     return (
         <>
-
-        <section id='blog-menu' className="blog-area pb-130">
-            <div className="container">
-                <div className="section-header text-center mb-50">
-                    <h2 className="wow splt-txt" data-splitting>Check Latest Blog Post <br /> from Blog List</h2>
-                </div>
-                <div className="row g-5">
-                    <div className="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div className="blog__item">
-                            <div className="blog__image">
-                                <img src="assets/images/blog/blog-image1.jpg" alt="image" />
-                                <img src="assets/images/blog/blog-image1.jpg" alt="image" />
-                            </div>
-                            <div className="blog__content">
-                                <ul>
-                                    <li>Branding</li>
-                                    <li className="date">May 15, 2024</li>
-                                </ul>
-                                <h4><Link href="/news-details">Creating innovative strategies for exceptional future outcomes.</Link></h4>
-                            </div>
-                        </div>
+            <section className="news-section pt-50 pb-50">
+                <div className="container">
+                    <div className="section-header mb-10">
+                        <h2 className="section-title">Geleceği keşfedin.</h2>
                     </div>
-                    <div className="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div className="blog__item">
-                            <div className="blog__image">
-                                <img src="assets/images/blog/blog-image2.jpg" alt="image" />
-                                <img src="assets/images/blog/blog-image2.jpg" alt="image" />
+                    <div className="news__items">
+                        <div className="news__item news__item-1 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="news__image">
+                                <img src="assets/images/news/news-1.png" alt="image" />
+                                <img src="assets/images/news/news-1.png" alt="image" />
                             </div>
-                            <div className="blog__content">
-                                <ul>
-                                    <li>Design Trends</li>
-                                    <li className="date">May 25, 2024</li>
-                                </ul>
-                                <h4><Link href="/news-details">Stratify Agency transforms the way we work through the power of AI-driven innovation.</Link></h4>
+                            <div className="news__content pt-10">
+                                <Link href="/news-details"><h3 className="">Üretici olarak Mercedes-Benz’inizi en iyi biz biliriz</h3></Link>
+                                <p className="lh-sm mt-10">En önemli güvenlik sistemlerimizden biri bakımdır. Düzenli bakımlar Mercedes'inizin güvenliğini muhafaza eder ve değerini korumasını sağlar.</p>
                             </div>
+                            <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
+                                data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                         </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div className="blog__item">
-                            <div className="blog__image">
-                                <img src="assets/images/blog/blog-image3.jpg" alt="image" />
-                                <img src="assets/images/blog/blog-image3.jpg" alt="image" />
+                        <div className="news__item news__item-2 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="news__image">
+                                <img src="assets/images/news/news-2.png" alt="image" />
+                                <img src="assets/images/news/news-2.png" alt="image" />
                             </div>
-                            <div className="blog__content">
-                                <ul>
-                                    <li>Marketing</li>
-                                    <li className="date">May 30, 2024</li>
-                                </ul>
-                                <h4><Link href="/news-details">Common UX pinpoints in Dashboard-related projects.</Link></h4>
+                            <div className="news__content pt-10">
+                                <Link href="/news-details"><h3 className="">100 km'ye 5 saniyede çıkabildiğini biliyor muydunuz?</h3></Link>
+                                <p className="lh-sm mt-10">Özgün ve güçlü tasarım diline sahip tamamen elektrikli EQA. EQA, keskin hatlarını, mükemmel oranlarını ve güçlü tasarımını coupé izlenimi veren yan çizgilerle bir araya getirir. EQA çarpıcı özellikleriyle sizi tamamen elektrikli sürüşe geçmeye davet ediyor.</p>
                             </div>
+                            <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
+                                data-wow-delay="400ms" data-wow-duration="1500ms">EQA’yı Keşfedin<i className="deg45 fa-solid fa-arrow-right"></i></Link>
+                        </div>
+                        <div className="news__item news__item-3 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div className="news__image">
+                                <img src="assets/images/news/news-3.png" alt="image" />
+                                <img src="assets/images/news/news-3.png" alt="image" />
+                            </div>
+                            <div className="news__content pt-10">
+                                <Link href="/news-details"><h3 className="">Yıldızların ışıltısını Gelecek Diyarbakır'da keşfedin</h3></Link>
+                                <p className="lh-sm mt-10">Her ihtiyacınıza özel çözümler sunan uzman ekibimizle, sizi Gelecek Diyarbakır showroomumuza bekliyoruz!</p>
+                            </div>
+                            <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
+                                data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
         </>
     )

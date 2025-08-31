@@ -264,6 +264,10 @@ figure {
   margin: 0;
 }
 
+.svg-icon {
+  fill: currentColor;
+}
+
 @media (max-width: 1399px) {
   br {
     display: none;
@@ -3514,7 +3518,7 @@ figure {
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
-  padding: 10px 60px;
+  padding: 10px 30px;
   text-transform: capitalize;
   color: var(--white);
   background-color: var(--black);
@@ -3607,7 +3611,7 @@ figure {
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
-  padding: 10px 60px;
+  padding: 10px 30px;
   text-transform: capitalize;
   color: var(--black);
   border-radius: 30px;
@@ -5360,13 +5364,14 @@ figure {
   color: var(--paragraph);
 }
 
-.footer__item .mailUs button, .footer__item-last .mailUs button {
+.footer__item-last .mailUs button {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: var(--white);
-  background-color: var(--mercedes-blue);
+  /* background-color: var(--mercedes-blue); */
+  background-color: var(--gelecek-gold);
   font-size: 18px;
   padding: 10px 30px;
   border-radius: 50px;

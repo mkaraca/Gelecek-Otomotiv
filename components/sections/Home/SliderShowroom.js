@@ -39,9 +39,9 @@ function SliderShowroom() {
                         <div className="showroom-link-wr">
                             <div className="position-relative">
                                 <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
-                                <Link href="/page-about" className="showroom-link">
+                                <Link href="/page-about" className="btns showroom-link">
                                     <h4 className="">Gelecek İstanbul</h4>
-                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                    <i className="deg45 fa-solid fa-arrow-right opacity-50"></i>
                                 </Link>
                                 <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>
@@ -54,9 +54,9 @@ function SliderShowroom() {
                         <div className="showroom-link-wr">
                             <div className="position-relative">
                                 <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
-                                <Link href="/page-about" className="showroom-link">
+                                <Link href="/page-about" className="btns showroom-link">
                                     <h4 className="">Gelecek Diyarbakır</h4>
-                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                    <i className="deg45 fa-solid fa-arrow-right opacity-50"></i>
                                 </Link>
                                 <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>
@@ -67,9 +67,9 @@ function SliderShowroom() {
                         <div className="showroom-link-wr">
                             <div className="position-relative">
                                 <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
-                                <Link href="/page-about" className="showroom-link">
+                                <Link href="/page-about" className="btns showroom-link">
                                     <h4 className="">Gelecek Diyarbakır</h4>
-                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                    <i className="deg45 fa-solid fa-arrow-right opacity-50"></i>
                                 </Link>
                                 <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>
@@ -80,9 +80,9 @@ function SliderShowroom() {
                         <div className="showroom-link-wr">
                             <div className="position-relative">
                                 <svg className="button-radius-svg tr-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
-                                <Link href="/page-about" className="showroom-link">
+                                <Link href="/page-about" className="btns showroom-link">
                                     <h4 className="">Gelecek Erzurum</h4>
-                                    <i className="fa-solid fa-arrow-right fs-16 opacity-50"></i>
+                                    <i className="deg45 fa-solid fa-arrow-right opacity-50"></i>
                                 </Link>
                                 <svg className="button-radius-svg bl-corner" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10H0C5.52285 10 10 5.52285 10 0V10Z" fill="white" /></svg>
                             </div>

@@ -102,8 +102,8 @@ const Footer = () => {
                                             </label>
                                         </div>
 
-                                        <button type="submit" disabled={loading}>
-                                            <span className="">GÖNDER</span>
+                                        <button className="btns" type="submit" disabled={loading}>
+                                            <span>GÖNDER</span>
                                             <i className="fa fa-paper-plane" aria-hidden="true" />
                                         </button>
                                     </form>
