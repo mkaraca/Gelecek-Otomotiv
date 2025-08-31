@@ -50,15 +50,13 @@ function SliderMain() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <video className="slider-home-main__video" ref={videoRef} muted loop playsInline autoPlay>
-                            <source src="assets/video/mb-slider-video-2.mp4" type="video/mp4" />
-                        </video>
+                        <img className="slider-home-main__image" src="assets/images/slider/slider-image-1.jpg" alt="Gelecek Otomotiv" />
                         <div className="container">
                             <div className="slider-home-main__content">
-                                <h2 className="title text-center wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <h2 className="title text-center text-black wow fadeInUp" data-depth="0.03" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     Tamamen Elektrikli, Tamamen Mercedes.</h2>
                                 <div className="btns justify-content-center mt-20">
-                                    <Link data-depth="0.05" href="/page-about" className="btn-two-light wow fadeInUp"
+                                    <Link data-depth="0.05" href="/page-about" className="btn-two wow fadeInUp"
                                         data-wow-delay="400ms" data-wow-duration="1500ms">TEST SÜRÜŞÜ İÇİN RANDEVU AL<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                                 </div>
                             </div>
