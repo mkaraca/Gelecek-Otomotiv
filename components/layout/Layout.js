@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import PageHead from './PageHead';
+import Header from './Header';
+import Footer from './Footer';
 import BackToTop from '../elements/BackToTop';
 import SideMenu from '../elements/SideMenu';
-import Footer from './Footer';
-import Header from './Header';
-import PageHead from './PageHead';
+import ModalImage  from '../elements/ModalImage';
 
-const Layout = ({ children, HeaderStyle, FooterStyle, styleMode}) => {
+const Layout = ({ children, HeaderStyle, FooterStyle, styleMode }) => {
     const isServer = typeof window === 'undefined';
     const WOW = !isServer ? require('wow.js') : null;
     const [searchToggle, setSearchToggled] = useState(false);
@@ -48,17 +49,22 @@ const Layout = ({ children, HeaderStyle, FooterStyle, styleMode}) => {
             new WOW().init();
         }
     }, []);
-
+    
     return (
         <>
             <PageHead />
+
             <div className="page-wrapper" id="top">
-                {!HeaderStyle && <Header handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
+                <Header handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />
                 {children}
-                {!FooterStyle && <Footer />}
+                <Footer />
             </div>
+
             <SideMenu />
             <BackToTop />
+            {typeof window !== 'undefined' && window.location.pathname === '/' && (
+              <ModalImage />
+            )}
         </>
     );
 };
