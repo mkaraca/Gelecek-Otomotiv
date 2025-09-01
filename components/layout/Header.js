@@ -5,6 +5,7 @@ import NavLinks from './NavLinks';
 import NavLinksSecondary from './NavLinksSecondary';
 import MobileMenu from './MobileMenu';
 import SocialLinks from '../elements/SocialLinks';
+import ModalLogin from '../elements/ModalLogin';
 
 const Header = ({ scroll }) => {
     const router = useRouter();
@@ -12,9 +13,17 @@ const Header = ({ scroll }) => {
 
     const [searchToggle, setSearchToggle] = useState(false);
     const [sidebarToggle, setSidebarToggle] = useState(false);
+    const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
     const handleToggleSearch = () => setSearchToggle(!searchToggle);
     const handleToggleSidebar = () => setSidebarToggle(!sidebarToggle);
+    const handleLoginClick = (e) => {
+        e.preventDefault();
+        setIsLoginModalOpen(true);
+    };
+    const handleCloseLoginModal = () => {
+        setIsLoginModalOpen(false);
+    };
 
     return (
         <>
@@ -28,10 +37,10 @@ const Header = ({ scroll }) => {
                         <div className="header-top__socials">
                             <SocialLinks />
 
-                            <Link href="/">
-                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                                <span className="text-white ms-2">Login</span>
-                            </Link>
+                            <a href="#" onClick={handleLoginClick}>
+                                <i className="fa-solid fa-arrow-right-to-bracket"></i>
+                                <span className="text-white ms-2">Giriş Yap</span>
+                            </a>
                             <Link className="pe-0" href="/">
                                 <i class="fa-solid fa-language"></i>
                                 <span className="text-white ms-2">TR</span><i className="fa-solid fa-angle-down ms-2"></i>
@@ -78,6 +87,8 @@ const Header = ({ scroll }) => {
                     </div>
                 </div>
             </header>
+
+            <ModalLogin isOpen={isLoginModalOpen} onClose={handleCloseLoginModal} />
 
             <div className={`sidebar-area offcanvas offcanvas-end ${sidebarToggle ? "show" : ""}`} id="menubar">
                 <div className="offcanvas-header">

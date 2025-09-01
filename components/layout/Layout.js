@@ -6,7 +6,7 @@ import BackToTop from '../elements/BackToTop';
 import SideMenu from '../elements/SideMenu';
 import ModalImage  from '../elements/ModalImage';
 
-const Layout = ({ children, HeaderStyle, FooterStyle, styleMode }) => {
+const Layout = ({ children, styleMode }) => {
     const isServer = typeof window === 'undefined';
     const WOW = !isServer ? require('wow.js') : null;
     const [searchToggle, setSearchToggled] = useState(false);
@@ -62,9 +62,9 @@ const Layout = ({ children, HeaderStyle, FooterStyle, styleMode }) => {
 
             <SideMenu />
             <BackToTop />
-            {typeof window !== 'undefined' && window.location.pathname === '/' && (
-              <ModalImage />
-            )}
+
+            <ModalImage />
+
         </>
     );
 };

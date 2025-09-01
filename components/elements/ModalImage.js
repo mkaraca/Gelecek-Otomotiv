@@ -63,7 +63,7 @@ const ModalImage = () => {
               <span className="info-title">HIZLANMA (0-100 KM/H)</span>
             </div>
           </div>
-          <button className="modal-button">EQS’yi Keşfedin</button>
+          <button className="modal-button">EQS'yi Keşfedin</button>
         </div>
 
       </div>
