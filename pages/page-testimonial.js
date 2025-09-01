@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 import PageTitle from "../components/sections/PageTitle";
 import TestimonialInner from "../components/sections/TestimonialInner";
-import Brand from "../components/sections/Home12/Brand";
 export default function TestimonialPage() {
 
     return (
@@ -10,7 +9,6 @@ export default function TestimonialPage() {
             <Layout>
                 <PageTitle pageName="Testimonial" />
                 <TestimonialInner />
-                <Brand />
             </Layout>
         </>
     );

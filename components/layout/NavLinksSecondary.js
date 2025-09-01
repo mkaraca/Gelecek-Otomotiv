@@ -5,9 +5,9 @@ const NavLinksSecondary = () => {
     return (
 
         <ul>
-            <li><Link href="/">SERVİS</Link></li>
-            <li><Link href="/">BLOG</Link></li>
-            <li><Link href="/">İLETİŞİM</Link></li>
+            <li><Link href="/page-services">SERVİS</Link></li>
+            <li><Link href="/news-grid">BLOG</Link></li>
+            <li><Link href="/contact">İLETİŞİM</Link></li>
         </ul>
 
     );

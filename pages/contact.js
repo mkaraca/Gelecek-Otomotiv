@@ -1,8 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import PageTitle from "../components/sections/PageTitle";
-import Contact from "../components/sections/Home2/Contact";
-import Brand from "../components/sections/Home12/Brand";
+import Contact from "../components/sections/Home/Contact";
 
 export default function Contactus() {
 
@@ -11,7 +10,6 @@ export default function Contactus() {
             <Layout>
                 <PageTitle pageName="Contact Us" />
                 <Contact />
-                <Brand />
             </Layout>
         </>
     );

@@ -46,7 +46,7 @@ function News() {
                                 <p>Her ihtiyacınıza özel çözümler sunan uzman ekibimizle, sizi Gelecek Diyarbakır showroomumuza bekliyoruz!</p>
                             </div>
                             <Link data-depth="0.05" href="/page-about" className="btns btn-one mt-20 wow fadeInUp"
-                                data-wow-delay="400ms" data-wow-duration="1500ms">Bakım & Onarım Hizmetleri<i className="deg45 fa-solid fa-arrow-right"></i></Link>
+                                data-wow-delay="400ms" data-wow-duration="1500ms">Gelecek Diyarbakır<i className="deg45 fa-solid fa-arrow-right"></i></Link>
                         </div>
                     </div>
                 </div>
