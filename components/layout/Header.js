@@ -14,6 +14,7 @@ const Header = ({ scroll }) => {
     const [searchToggle, setSearchToggle] = useState(false);
     const [sidebarToggle, setSidebarToggle] = useState(false);
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+    const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
     const handleToggleSearch = () => setSearchToggle(!searchToggle);
     const handleToggleSidebar = () => setSidebarToggle(!sidebarToggle);
@@ -41,10 +42,101 @@ const Header = ({ scroll }) => {
                                 <i className="fa-solid fa-arrow-right-to-bracket"></i>
                                 <span className="text-white ms-2">Giriş Yap</span>
                             </a>
-                            <Link className="pe-0" href="/">
-                                <i class="fa-solid fa-language"></i>
-                                <span className="text-white ms-2">TR</span><i className="fa-solid fa-angle-down ms-2"></i>
-                            </Link>
+                            <div className="language-selector">
+                                <button 
+                                    className="language-trigger" 
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setIsLanguageOpen(!isLanguageOpen);
+                                    }}
+                                >
+                                    <i className="fa-solid fa-language"></i>
+                                    <span className="ms-2 fw-bold">TR</span>
+                                    <i className={`fa-solid fa-angle-down ms-2 transition-transform ${isLanguageOpen ? 'rotate-180' : ''}`}></i>
+                                </button>
+                                {isLanguageOpen && (
+                                    <div className="language-dropdown">
+                                        <button 
+                                            className="language-option active"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                // Handle language change to Turkish
+                                                setIsLanguageOpen(false);
+                                            }}
+                                        >
+                                            <span className="me-2 fw-bold">TR</span>
+                                            Türkçe
+                                        </button>
+                                        <button 
+                                            className="language-option"
+                                            onClick={(e) => {
+                                                e.preventDefault();
+                                                // Handle language change to English
+                                                setIsLanguageOpen(false);
+                                            }}
+                                        >
+                                            <span className="me-2 fw-bold">EN</span>
+                                            English
+                                        </button>
+                                    </div>
+                                )}
+                                <style jsx>{`
+                                    .language-selector {
+                                        position: relative;
+                                        display: inline-block;
+                                    }
+                                    .language-trigger {
+                                        background: none;
+                                        border: none;
+                                        color: white;
+                                        display: flex;
+                                        align-items: center;
+                                        cursor: pointer;
+                                        padding: 5px 10px;
+                                        border-radius: 4px;
+                                        transition: background-color 0.2s;
+                                    }
+                                    .language-trigger:hover {
+                                        background-color: rgba(255, 255, 255, 0.1);
+                                    }
+                                    .language-dropdown {
+                                        position: absolute;
+                                        top: 100%;
+                                        right: 0;
+                                        background: white;
+                                        border-radius: 4px;
+                                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                                        min-width: 150px;
+                                        z-index: 1000;
+                                        overflow: hidden;
+                                    }
+                                    .language-option {
+                                        display: flex;
+                                        align-items: center;
+                                        width: 100%;
+                                        padding: 8px 16px;
+                                        background: none;
+                                        border: none;
+                                        text-align: left;
+                                        color: #333;
+                                        cursor: pointer;
+                                        transition: background-color 0.2s;
+                                    }
+                                    .language-option:hover {
+                                        background-color: #f5f5f5;
+                                    }
+                                    .language-option.active {
+                                        background-color: #f0f0f0;
+                                        font-weight: 500;
+                                    }
+                                    .transition-transform {
+                                        transition: transform 0.2s;
+                                    }
+                                    .rotate-180 {
+                                        transform: rotate(180deg);
+                                    }
+                                `}</style>
+                            </div>
                         </div>
                     </div>
                 </div>
