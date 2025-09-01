@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SocialLinks from '../../elements/SocialLinks';
-import ServicesList from '../../elements/ServicesList';
+import SocialLinks from '../elements/SocialLinks';
+import ServicesList from '../elements/ServicesList';
 
 function Footer5() {
     const [email, setEmail] = useState('');

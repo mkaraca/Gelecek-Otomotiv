@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import UsefulLinks from '../../elements/UsefulLinks';
-import SupportLinks from '../../elements/SupportLinks';
-import SocialLinks from '../../elements/SocialLinks';
+import UsefulLinks from '../elements/UsefulLinks';
+import SupportLinks from '../elements/SupportLinks';
+import SocialLinks from '../elements/SocialLinks';
 
 const Footer2 = () => {
     return (

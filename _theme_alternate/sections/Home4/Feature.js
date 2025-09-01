@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 
 function Feature() {
     const [email, setEmail] = useState('');

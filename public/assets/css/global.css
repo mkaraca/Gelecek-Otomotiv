@@ -4733,7 +4733,8 @@ figure {
   -ms-flex-pack: justify;
   justify-content: space-between;
   gap: 10px;
-  font-size: 12px;
+  font-size: 13px;
+  height: 30px;
 }
 
 .header-top__socials {

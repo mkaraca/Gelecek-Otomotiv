@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import ProgressBar from '../../../elements/ProgressBar2';
+import ProgressBar from '../../elements/ProgressBar2';
 
 
 function Video2()  {

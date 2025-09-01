@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import ContactInfo from '../../elements/ContactInfo';
-import UsefulLinks2 from '../../elements/UsefulLink2';
-import SocialLinks from '../../elements/SocialLinks';
+import ContactInfo from '../elements/ContactInfo';
+import UsefulLinks2 from '../elements/UsefulLink2';
+import SocialLinks from '../elements/SocialLinks';
 
 function Footer3Dark () {
     return (

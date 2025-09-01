@@ -1,5 +1,5 @@
 import React from "react";
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 
 function Funfact() {
     return (

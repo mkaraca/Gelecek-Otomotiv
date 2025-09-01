@@ -1,15 +1,15 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Slider from "../../components/sections/_alternate/Home7Dark/Slider";
-import About from "../../components/sections/_alternate/Home7Dark/About";
-import Consult from "../../components/sections/_alternate/Home7Dark/Consult";
-import Serveice from "../../components/sections/_alternate/Home7Dark/Serveice";
-import Choose from "../../components/sections/_alternate/Home7Dark/Choose";
-import Pricing from "../../components/sections/_alternate/Home7Dark/Pricing";
-import Marquee from "../../components/sections/_alternate/Home7Dark/Marquee";
-import Professional from "../../components/sections/_alternate/Home7Dark/Professional";
-import Teams from "../../components/sections/_alternate/Home7Dark/Teams";
-import Contact from "../../components/sections/_alternate/Home7Dark/Contact";
+import Layout from "../components/layout/Layout";
+import Slider from "../components/sections/_alternate/Home7Dark/Slider";
+import About from "../components/sections/_alternate/Home7Dark/About";
+import Consult from "../components/sections/_alternate/Home7Dark/Consult";
+import Serveice from "../components/sections/_alternate/Home7Dark/Serveice";
+import Choose from "../components/sections/_alternate/Home7Dark/Choose";
+import Pricing from "../components/sections/_alternate/Home7Dark/Pricing";
+import Marquee from "../components/sections/_alternate/Home7Dark/Marquee";
+import Professional from "../components/sections/_alternate/Home7Dark/Professional";
+import Teams from "../components/sections/_alternate/Home7Dark/Teams";
+import Contact from "../components/sections/_alternate/Home7Dark/Contact";
 
 export default function Home7Dark() {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import ProgressBar from '../../../elements/ProgressBar2';
+import ProgressBar from '../../elements/ProgressBar2';
 
 function Consult() {
     const services = ["Innovative", "Analytics", "User Experience", "Promotion"];

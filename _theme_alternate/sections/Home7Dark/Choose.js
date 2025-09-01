@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import ProgressBar from '../../../elements/ProgressBar2';
+import ProgressBar from '../../elements/ProgressBar2';
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Pagination, Navigation } from "swiper/modules"
 import "swiper/css"

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SocialLinks from '../../elements/SocialLinks';
+import SocialLinks from '../elements/SocialLinks';
 
 const Footer7 = () => {
     return (

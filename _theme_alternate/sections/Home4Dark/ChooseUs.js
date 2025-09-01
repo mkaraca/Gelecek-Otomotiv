@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import Link from 'next/link';
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 
 function Chooseus() {
     const [isOpen, setOpen] = useState(false)    

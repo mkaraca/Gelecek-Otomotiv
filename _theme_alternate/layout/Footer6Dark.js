@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import ServicesList from '../../elements/ServicesList';
-import UsefulLinks from '../../elements/UsefulLinks';
-import SocialLinks2 from '../../elements/SocialLinks2';
+import ServicesList from '../elements/ServicesList';
+import UsefulLinks from '../elements/UsefulLinks';
+import SocialLinks2 from '../elements/SocialLinks2';
 
 function Footer6Dark () {
     return (

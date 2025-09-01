@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import SocialLinks from '../../elements/SocialLinks';
-import ServicesList from '../../elements/ServicesList';
-import MenuList from '../../elements/MenuList';
+import SocialLinks from '../elements/SocialLinks';
+import ServicesList from '../elements/ServicesList';
+import MenuList from '../elements/MenuList';
 
 const FooterDark = () => {
     const [email, setEmail] = useState('');

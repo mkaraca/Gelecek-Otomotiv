@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link';
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 
 function About() {
     return (

@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ServicesList from '../../elements/ServicesList';
-import MenuLinks from '../../elements/MenuList';
-import SocialLinks from '../../elements/SocialLinks';
-import LogoLight from '../../public/assets/images/logo/logo-light.png';
+import ServicesList from '../elements/ServicesList';
+import MenuLinks from '../elements/MenuList';
+import SocialLinks from '../elements/SocialLinks';
+import LogoLight from '../public/assets/images/logo/logo-light.png';
 
 function Footer4Dark () {
     return (

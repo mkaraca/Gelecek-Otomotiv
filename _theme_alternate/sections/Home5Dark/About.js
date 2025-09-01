@@ -4,7 +4,7 @@ import { Navigation } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/pagination"
 import Link from 'next/link';
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 
 const swiperOptions = {
     modules: [ Navigation ],

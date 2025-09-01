@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import CounterUp from '../../../elements/CounterUp';
+import CounterUp from '../../elements/CounterUp';
 import Link from 'next/link';
 
 

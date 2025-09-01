@@ -1,17 +1,17 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Slider from "../../components/sections/Home13Dark/Slider";
-import Service from "../../components/sections/Home13Dark/Service";
-import About from "../../components/sections/Home13Dark/About";
-import Solution from "../../components/sections/Home13Dark/Solution";
-import Pricing from "../../components/sections/Home13Dark/Pricing";
-import Testimonial from "../../components/sections/Home13Dark/Testimonial";
-import Teams from "../../components/sections/_alternate/Home7Dark/Teams";
-import Video from "../../components/sections/_alternate/Home5Dark/Video2";
-import About2 from "../../components/sections/_alternate/Home1Dark/About";
-import Clients from "../../components/sections/_alternate/Home2Dark/Clients";
-import News from "../../components/sections/_alternate/Home2/News";
-import Contact from "../../components/sections/_alternate/Home9Dark/Contact";
+import Layout from "../components/layout/Layout";
+import Slider from "../components/sections/Home13Dark/Slider";
+import Service from "../components/sections/Home13Dark/Service";
+import About from "../components/sections/Home13Dark/About";
+import Solution from "../components/sections/Home13Dark/Solution";
+import Pricing from "../components/sections/Home13Dark/Pricing";
+import Testimonial from "../components/sections/Home13Dark/Testimonial";
+import Teams from "../components/sections/_alternate/Home7Dark/Teams";
+import Video from "../components/sections/_alternate/Home5Dark/Video2";
+import About2 from "../components/sections/_alternate/Home1Dark/About";
+import Clients from "../components/sections/_alternate/Home2Dark/Clients";
+import News from "../components/sections/_alternate/Home2/News";
+import Contact from "../components/sections/_alternate/Home9Dark/Contact";
 
 export default function Home13Dark() {
 
