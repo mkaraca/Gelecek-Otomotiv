@@ -11,19 +11,19 @@ function Funfact() {
                         <p className="section-desc">‘Mükemmel Müşteri Deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>
                     <div className="funfact-items">
-                        <div className="funfact__item">
+                        <div className="funfact__item card-scale">
                             <h3><span className="count"><CounterUp end={25} /></span>+</h3>
                             <h5 className="color-light wow splt-txt" data-splitting>Yıllık Tecrübe</h5>
                         </div>
-                        <div className="funfact__item">
+                        <div className="funfact__item card-scale">
                             <h3><span className="count"><CounterUp end={50} /> bin+</span></h3>
                             <h5 className="color-light wow splt-txt" data-splitting>Metrekare Alan</h5>
                         </div>
-                        <div className="funfact__item">
+                        <div className="funfact__item card-scale">
                             <h3><span className="count"><CounterUp end={200} /></span>+</h3>
                             <h5 className="color-light wow splt-txt" data-splitting>Uzman Personel</h5>
                         </div>
-                        <div className="funfact__item">
+                        <div className="funfact__item card-scale">
                             <h3><span className="count"><CounterUp end={100} /></span>%</h3>
                             <h5 className="color-light wow splt-txt" data-splitting>Müşteri Memnuniyeti</h5>
                         </div>

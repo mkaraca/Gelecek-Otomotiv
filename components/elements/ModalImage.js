@@ -11,7 +11,8 @@ const ModalImage = () => {
     const modalData = JSON.parse(sessionStorage.getItem('modalData') || '{}');
     const now = new Date().getTime();
     const sessionTime = 15 * 1000;
-    const waitTime = 3 * 1000;
+    // const waitTime = 3 * 1000;
+    const waitTime = 0;
 
     const showModal = () => {
       if (!modalData.lastShown || (now - modalData.lastShown) > sessionTime) {

@@ -153,7 +153,8 @@ const Header = ({ scroll }) => {
 
                         <div className="logo-block">
                             <Link href="/" className="logo">
-                                <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" />
+                                {/* <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" /> */}
+                                <svg width="280" height="60" role="img" aria-label="Gelecek Otomotiv"><use href="#gelecek-logo-light"></use></svg>
                             </Link>
                         </div>
 
@@ -184,7 +185,10 @@ const Header = ({ scroll }) => {
 
             <div className={`sidebar-area offcanvas offcanvas-end ${sidebarToggle ? "show" : ""}`} id="menubar">
                 <div className="offcanvas-header">
-                    <Link href="/" className="logo"><img src="assets/images/logo/gelecek-logo-light.png" alt="logo" /></Link>
+                    <Link href="/" className="logo-white">
+                        {/* <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" /> */}
+                        <svg class="svg-icon" width="280" height="60" role="img" aria-label="Gelecek Otomotiv"><use href="#gelecek-logo-nofill"></use></svg>
+                    </Link>
                     <button type="button" className="btn-close" onClick={handleToggleSidebar}>
                         <i className="fa-solid fa-xmark" />
                     </button>
@@ -197,12 +201,12 @@ const Header = ({ scroll }) => {
                             </nav>
                         </div>
                     </div>
-                    <div className="d-none d-lg-block">
-                        <h5 className="text-white mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h5>
+                    <div className="d-none d-lg-block pe-4">
+                        <h4 className="text-white mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
                         <p className="sidebar__text lh-sm">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>
-                    <div className="sidebar__contact-info mt-30">
-                        <h5 className="text-white mb-10">İletişim:</h5>
+                    <div className="sidebar__contact-info mt-30 pe-4">
+                        <h4 className="text-white mb-10">İletişim:</h4>
                         <ul>
                             <li><i className="d-inline fa-solid fa-location-dot" /><Link className="d-inline" href="/">Hamidiye Mah. Selçuklu Cad. No:10/H A Blok 34408 Kağıthane/İstanbul</Link></li>
                             <li className="py-1"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+902123228000">(0212) 322 80 00</Link></li>
@@ -210,8 +214,8 @@ const Header = ({ scroll }) => {
                         </ul>
                     </div>
                     <div className="sidebar__btns my-5">
-                        <Link href="/">Kayıt Ol</Link>
-                        <Link className="sign-in" href="/">Giriş Yap</Link>
+                        <Link href="#" onClick={handleLoginClick}>Kayıt Ol</Link>
+                        <Link className="sign-in" href="#" onClick={handleLoginClick}>Giriş Yap</Link>
                     </div>
                     <div className="sidebar__socials">
                         <ul>

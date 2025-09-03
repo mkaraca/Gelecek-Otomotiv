@@ -36,10 +36,11 @@ const Footer = () => {
                 <div className="footer__wrp pt-50 pb-50">
                     {/* Left */}
                     <div className="footer__left pe-5">
-                        <Link href="/" className="logo">
-                            <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" />
+                        <Link href="/" className="logo-white">
+                            {/* <img src="assets/images/logo/gelecek-logo-light.png" alt="logo" /> */}
+                            <svg class="svg-icon" width="280" height="60" role="img" aria-label="Gelecek Otomotiv"><use href="#gelecek-logo-nofill"></use></svg>
                         </Link>
-                        <h4 className="title text-white mt-20">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
+                        <h4 className="title text-white mt-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
                         <p className="mt-15 lh-sm text-white">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
 
                         <div className="footer__item-last mt-40">
@@ -49,7 +50,7 @@ const Footer = () => {
                     </div>
 
                     {/* Center */}
-                    <div className="footer__center">
+                    <div className="footer__center pt-15">
                         <div className="footer__item-wrp">
                             {/* Services */}
                             <div className="footer__item">
@@ -65,7 +66,7 @@ const Footer = () => {
                     </div>
 
                     {/* Right */}
-                    <div className="footer__right">
+                    <div className="footer__right pt-15">
                         <div className="footer__item-wrp">
                             {/* Newsletter */}
                             <div className="footer__item-last">

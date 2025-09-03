@@ -11,8 +11,7 @@ function News() {
                     </div>
                     <div className="news__items">
                         <div className="news__item news__item-1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                            <div className="news__image">
-                                <img src="assets/images/news/news-1.png" alt="image" />
+                            <div className="news__image image-scale wow">
                                 <img src="assets/images/news/news-1.png" alt="image" />
                             </div>
                             <div className="news__content pt-10">
@@ -24,8 +23,7 @@ function News() {
                         </div>
 
                         <div className="news__item news__item-2 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                            <div className="news__image">
-                                <img src="assets/images/news/news-2.png" alt="image" />
+                            <div className="news__image image-scale wow">
                                 <img src="assets/images/news/news-2.png" alt="image" />
                             </div>
                             <div className="news__content pt-10">
@@ -37,8 +35,7 @@ function News() {
                         </div>
 
                         <div className="news__item news__item-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                            <div className="news__image">
-                                <img src="assets/images/news/news-3.png" alt="image" />
+                            <div className="news__image image-scale wow">
                                 <img src="assets/images/news/news-3.png" alt="image" />
                             </div>
                             <div className="news__content pt-10">
