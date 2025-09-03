@@ -6202,8 +6202,8 @@ figure {
   width: 68px;
   height: 68px;
   color: var(--white);
-  /* background-color: var(--gelecek-blue-light); */
-  background-color: var(--mercedes-blue);
+  background-color: var(--gelecek-gold);
+  /* background-color: var(--mercedes-blue); */
   transition: var(--transition);
   z-index: 1;
 }
@@ -6222,7 +6222,8 @@ figure {
 }
 
 .sidemenu-block .sidemenu-item:hover {
-  background-color: var(--mercedes-blue-dark);
+  /* background-color: var(--mercedes-blue-dark); */
+  background-color: var(--gelecek-gold-dark);
 }
 
 .sidemenu-block .sidemenu-item svg {
@@ -6242,7 +6243,7 @@ figure {
   padding-right: 88px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: var(--mercedes-blue-dark);
+  background-color: var(--gelecek-gold-dark);
   opacity: 0;
   pointer-events: none;
   z-index: -1;
