@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 const socialLink = [
-    { href: "https://instagram.com", icon: "fa-instagram" },
-    { href: "https://facebook.com", icon: "fa-facebook" },
-    { href: "https://x.com", icon: "fa-x-twitter" },
-    { href: "https://youtube.com", icon: "fa-youtube" },
-    { href: "https://linkedin.com", icon: "fa-linkedin" },
+    { href: "https://www.instagram.com/gelecekotomotiv", icon: "fa-instagram" },
+    { href: "https://www.facebook.com/gelecekotomotiv", icon: "fa-facebook" },
+    { href: "https://x.com/gelecekotomotiv", icon: "fa-x-twitter" },
+    { href: "https://www.youtube.com/user/gelecekotomotiv", icon: "fa-youtube" },
+    { href: "https://www.linkedin.com/company/gelecekotomotiv", icon: "fa-linkedin" },
 ];
 
 function SocialLinks() {
@@ -15,7 +15,7 @@ function SocialLinks() {
 
         <div className="socials">
             {socialLink.map((socialLink1, index) => (
-            <Link key={index} href={socialLink1.href}>
+            <Link key={index} href={socialLink1.href} target="_blank" rel="noopener noreferrer" aria-label={socialLink1.icon}>
                 <i className={`fa-brands ${socialLink1.icon}`} />
             </Link>
             ))}
