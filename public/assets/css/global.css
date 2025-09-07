@@ -64,6 +64,8 @@
   --black-20: rgba(0, 0, 0, .2);
   --black-10: rgba(0, 0, 0, .1);
   --black-5: rgba(0, 0, 0, .05);
+  
+  --transparent: rgba(0, 0, 0, 0);
 
   --theme-color1: var(--gelecek-blue);
   --theme-color2: var(--gelecek-gold);
@@ -129,6 +131,27 @@
   --black: #121c27;
   --black: #000000;
 }
+
+.color-transparent {
+  color: var(--transparent)
+}
+
+.color-white {
+  color: var(--white)
+}
+
+.color-gold {
+  color: var(--gelecek-gold)
+}
+
+.color-gold:hover {
+  color: var(--gelecek-gold-dark)
+}
+
+.color-blue {
+  color: var(--gelecek-blue)
+}
+
 
 * {
   margin: 0;
@@ -5362,12 +5385,7 @@ figure {
 
 .header__main .menu-btns .search-trigger {
   font-size: 24px;
-  color: var(--heading-color);
-  margin-top: 8px;
-}
-
-.header__main .menu-btns.light .search-trigger {
-  color: var(--gelecek-gold-light);
+  margin-top: 5px;
 }
 
 .header__main .menubars {
