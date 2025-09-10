@@ -28,7 +28,7 @@ const Header = ({ scroll }) => {
 
     return (
         <>
-            <div className="header-top-area d-none d-lg-block">
+            <div className="header-top-area">
                 <div className="container">
                     <div className="header-top__wrp">
                         <ul className="header-top__links">
@@ -68,7 +68,7 @@ const Header = ({ scroll }) => {
             <header className={`header-area${isHomePage ? " header-blur" : " header-three-area"}${scroll ? " menu-fixed" : ""}`}>
                 <div className="container">
                     <div className="header__main">
-                        <div className="header-block main-menu main-menu-light" style={{ justifyContent:'flex-start'}}>
+                        <div className="header-block main-menu main-menu-first main-menu-light" style={{ justifyContent:'flex-start'}}>
                             <nav>
                                 <NavLinks />
                             </nav>
@@ -80,17 +80,17 @@ const Header = ({ scroll }) => {
                             </Link>
                         </div>
 
-                        <div className="header-block main-menu main-menu-light" style={{ justifyContent:'flex-end'}}>
-                            <nav><NavLinksSecondary /></nav>
+                        <div className="header-block main-menu main-menu-second main-menu-light" style={{ justifyContent:'flex-end'}}>
+                            <nav className="d-none d-md-block"><NavLinksSecondary /></nav>
 
                             <div className="menu-btns">
-                                <button className="color-gold d-none d-lg-block">
+                                <button className="color-white d-none d-sm-block">
                                     <svg class="svg-icon" width="24" height="24" role="img" aria-label="icon"><use href="#icon-gift"></use></svg>
                                 </button>
-                                <button className="color-gold d-none d-lg-block">
+                                <button className="color-white d-none d-sm-block">
                                     <svg class="svg-icon" width="32" height="32" role="img" aria-label="icon"><use href="#icon-car"></use></svg>
                                 </button>
-                                <button className="search-trigger color-gold d-none d-lg-block" onClick={handleToggleSearch}>
+                                <button className="search-trigger color-white" onClick={handleToggleSearch}>
                                     <i className="fa-solid fa-magnifying-glass"></i>
                                 </button>
                                 <button className="menubars menubars-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar" onClick={handleToggleSidebar}>
@@ -123,12 +123,12 @@ const Header = ({ scroll }) => {
                             </nav>
                         </div>
                     </div>
-                    <div className="d-none d-lg-block pe-4">
-                        <h4 className="text-white mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
+                    <div className="sidebar__contact-title d-none d-lg-block pe-4">
+                        <h4 className="mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
                         <p className="sidebar__text lh-sm">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>
-                    <div className="sidebar__contact-info mt-30 pe-4">
-                        <h4 className="text-white mb-10">İletişim:</h4>
+                    <div className="sidebar__contact-info d-none d-lg-block mt-30 pe-4">
+                        <h4 className="mb-10">İletişim:</h4>
                         <ul>
                             <li><i className="d-inline fa-solid fa-location-dot" /><Link className="d-inline" href="/">Hamidiye Mah. Selçuklu Cad. No:10/H A Blok 34408 Kağıthane/İstanbul</Link></li>
                             <li className="py-1"><i className="fa-solid fa-phone-volume" /><Link href="/tel:+902123228000">(0212) 322 80 00</Link></li>

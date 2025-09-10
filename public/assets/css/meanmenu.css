@@ -66,16 +66,15 @@ a.meanmenu-reveal {
 	padding: 10px 0;
 	margin: 0;
 	text-align: left;
-	color: #fff;
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	color: var(--white);
+	border-top: 1px solid var(--black-10);
 }
 
 .mean-container .mean-nav ul li li a {
-	width: 80%;
-	padding: 1em 10%;
-	border-top: 1px solid #f1f1f1;
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
-	opacity: 0.75;
+	/* width: 80%; */
+	padding: .75em 1em;
+	color: var(--white-75);
+	border-top: 1px solid var(--black-10);
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
 	visibility: visible;
@@ -116,9 +115,8 @@ a.meanmenu-reveal {
 	top: 7px;
 	z-index: 2;
 	font-weight: 700;
-	color: var(--text-color1);
-	background-color: var(--theme-color1);
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
+	color: var(--white-50);
+	background-color: var(--black-25);
 	border-radius: 10px;
 	padding: 8px 0;
 	transition: var(--transition);
@@ -129,7 +127,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li .dropdown-btn:hover {
-	background: rgba(0, 0, 0, 0.9);
+	background: var(--black-25);
 }
 
 .mean-container .mean-push {
@@ -156,4 +154,8 @@ a.meanmenu-reveal {
 
 .mean-remove {
 	display: none !important;
+}
+
+.mean-nav .svg-icon {
+	vertical-align: -5px;
 }
