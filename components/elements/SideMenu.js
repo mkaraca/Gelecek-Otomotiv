@@ -3,7 +3,7 @@ import Link from 'next/link';
 function SideMenu() {
     return (
         <>
-            <div className="sidemenu-block">
+            <div className="sidemenu-block d-none d-md-block">
                 <Link href="/" className="sidemenu-item">
                     <svg class="svg-icon" width="48" height="48" role="img" aria-label="icon"><use href="#icon-call"></use></svg>
                     <div className="sidemenu-title"><h5>Şikayet ve Öneriler</h5></div>
