@@ -16,10 +16,10 @@ const ModalLogin = ({ isOpen, onClose }) => {
 
     return (
         <div className="modal-overlay" onClick={onClose}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-content modal-login" onClick={(e) => e.stopPropagation()}>
                 <div className="modal-header">
-                    <h4>Giriş Yap</h4>
-                    <button className="close-btn" onClick={onClose}>
+                    <h3 className="fw-bold">Giriş Yap</h3>
+                    <button className="modal-close" onClick={onClose}>
                         <i className="fa-solid fa-xmark" />
                     </button>
                 </div>

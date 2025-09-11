@@ -91,15 +91,15 @@ const Footer = () => {
                                                 onChange={(e) => setEmail(e.target.value)}
                                                 required
                                             />
-                                            <div className="checkbox-wrap d-flex align-items-center mb-3">
+                                            <div className="checkbox-wrap d-flex align-items-start mb-3">
                                                 <input 
-                                                    class="me-2"
+                                                    class="me-2 mt-1"
                                                     type="checkbox" 
                                                     id="newsletter-consent" 
                                                     name="consent"
                                                     required
                                                 />
-                                                <label class="text-white" htmlFor="newsletter-consent">
+                                                <label class="text-white lh-sm" htmlFor="newsletter-consent">
                                                     Kişisel verilerimin işlenmesine izin veriyorum
                                                 </label>
                                             </div>
