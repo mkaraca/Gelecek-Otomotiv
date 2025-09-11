@@ -12,13 +12,13 @@ export default function Home() {
     return (
         <>
             <Layout>
-                {/* <SliderMain /> */}
+                <SliderMain />
 
-                <section className="bg-white pb-50 pt-50">
-                    <div class="container">
-                        <div class="d-flex justify-content-center gap-20 py-5">
-                            {/* <SliderShowroom /> */}
-                            {/* <Vehicle /> */}
+                <section className="bg-white">
+                    <div class="showroom-cr">
+                        <div class="showroom-ct">
+                            <SliderShowroom />
+                            <Vehicle />
                         </div>
                     </div>
                 </section>

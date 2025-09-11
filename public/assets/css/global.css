@@ -221,7 +221,7 @@ h2 {
 
 @media (max-width: 767px) {
   h2 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 40px;
   }
 }
@@ -311,6 +311,10 @@ figure {
 
 .svg-icon {
   fill: currentColor;
+}
+
+.svg-icon.icon-heart {
+	vertical-align: -5px;
 }
 
 .image-scale {

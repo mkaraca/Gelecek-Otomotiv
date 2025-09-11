@@ -8,7 +8,7 @@ const NavLinks = () => {
             <li>
                 <Link href="/page-about">
                     <span>BİZ</span>
-                    <svg class="svg-icon mx-2 color-red" width="20" height="20" role="img" aria-label="icon"><use href="#icon-heart"></use></svg>
+                    <svg class="svg-icon icon-heart mx-2 color-red" width="20" height="20" role="img" aria-label="icon"><use href="#icon-heart"></use></svg>
                     <span>SİZ</span> 
                     <i className="fa-solid fa-angle-down ms-2"></i>
                 </Link>
