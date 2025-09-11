@@ -163,12 +163,6 @@
 }
 
 @media (min-width: 1399px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
-@media (min-width: 1399px) {
   .d-gelecek-lg {
     display: block !important;
   }
@@ -6571,23 +6565,25 @@ figure {
 .modal-car-image {
   position: relative;
   width: 240px;
-  height: 240px;
+  margin-top: 22px;
+  margin-bottom: 22px;
   z-index: 2;
-  object-fit: contain;
+  border-radius: 200px;
   overflow: hidden;
-  border-radius: 100%;
   pointer-events: none;
 }
 @media (min-width: 390px) {
   .modal-car-image {
     width: 280px;
-    height: 280px;
+    margin-top: 28px;
+    margin-bottom: 28px;
   }
 }
 @media (min-width: 1079px) {
   .modal-car-image {
     width: 540px;
-    height: 540px;
+    height: 433px;
+    margin-top: 50px;
   }
 }
 

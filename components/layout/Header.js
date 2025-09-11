@@ -123,11 +123,11 @@ const Header = ({ scroll }) => {
                             </nav>
                         </div>
                     </div>
-                    <div className="sidebar__contact-title d-none d-lg-block pe-4">
+                    <div className="sidebar__contact-title d-none d-gelecek-lg pe-4">
                         <h4 className="mb-10">Mercedes-Benz Yetkili Acente ve Yetkili Servisi</h4>
                         <p className="sidebar__text lh-sm">‘Mükemmel müşteri deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>
-                    <div className="sidebar__contact-info d-none d-lg-block mt-30 pe-4">
+                    <div className="sidebar__contact-info d-none d-gelecek-lg mt-30 pe-4">
                         <h4 className="mb-10">İletişim:</h4>
                         <ul>
                             <li><i className="d-inline fa-solid fa-location-dot" /><Link className="d-inline" href="/">Hamidiye Mah. Selçuklu Cad. No:10/H A Blok 34408 Kağıthane/İstanbul</Link></li>
@@ -136,8 +136,8 @@ const Header = ({ scroll }) => {
                         </ul>
                     </div>
                     <div className="sidebar__btns my-5">
-                        <Link href="#" onClick={handleLoginClick}>Kayıt Ol</Link>
                         <Link className="sign-in" href="#" onClick={handleLoginClick}>Giriş Yap</Link>
+                        <Link href="#" onClick={handleLoginClick}>Kayıt Ol</Link>
                     </div>
                     <div className="sidebar__socials">
                         <SocialLinks />

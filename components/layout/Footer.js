@@ -58,7 +58,7 @@ const Footer = () => {
                                     <h4 className="title fs-28">Mercedes-Benz <br />Service24h <br />444 62 44</h4>
                                     <h4 className="title fs-28">Mercedes-Benz Guides</h4>
 
-                                    <Link href="/" className="d-flex align-items-center gap-3 mt-30">
+                                    <Link href="/" className="d-flex align-items-center flex-wrap gap-3 mt-30">
                                         <img src="assets/images/app/app-store.png" width="153" alt="App Store" />
                                         <img src="assets/images/app/google-play.png" width="135" alt="Google Play" />
                                     </Link>
