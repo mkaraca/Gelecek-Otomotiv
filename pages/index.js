@@ -23,9 +23,9 @@ export default function Home() {
                     </div>
                 </section>
 
-                {/* <HelpSection /> */}
-                {/* <News /> */}
-                {/* <Funfact /> */}
+                <HelpSection />
+                <News />
+                <Funfact />
                 {/* <Persona /> */}
             </Layout>
         </>

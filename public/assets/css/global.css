@@ -6353,6 +6353,15 @@ figure {
   right: 0;
   top: 300px;
   z-index: 99;
+  opacity: .5;
+}
+.sidemenu-block:hover {
+  opacity: 1;
+}
+@media (min-width: 1399px) {
+  .sidemenu-block {
+    opacity: 1;
+  }
 }
 
 .sidemenu-block .sidemenu-item {
