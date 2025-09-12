@@ -9,7 +9,7 @@ function HelpSection() {
             <section className="help-section pt-30 pb-50">
                 <div className="container">
                     <div className="help-section-wr">
-                        <div className="section-header">
+                        <div className="home-section-header">
                             <h2 className="section-title">Size nasıl yardımcı olabiliriz?</h2>
                         </div>
                         <div className="help-items">

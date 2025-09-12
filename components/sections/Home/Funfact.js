@@ -6,7 +6,7 @@ function Funfact() {
         <>
             <section className="funfact-section pt-50 pb-50">
                 <div className="container">
-                    <div className="section-header">
+                    <div className="home-section-header">
                         <h2 className="section-title">Biz kimiz?</h2>
                         <p className="section-desc">‘Mükemmel Müşteri Deneyimi’ sloganıyla otomobil satın almayı ve bakımını keyfe dönüştüren Türkiye’nin en büyük Mercedes-Benz yıldızına hoş geldiniz!</p>
                     </div>

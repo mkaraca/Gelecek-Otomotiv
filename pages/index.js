@@ -26,7 +26,7 @@ export default function Home() {
                 <HelpSection />
                 <News />
                 <Funfact />
-                {/* <Persona /> */}
+                <Persona />
             </Layout>
         </>
     );
